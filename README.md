@@ -84,7 +84,7 @@ Just a keyboard layout where everything's done right.
 
 No more, no less. 
 
-It' a very simple idea. 
+It's a very simple idea. 
 
 Why can't we have a keyboard layout...  
 just one keyboard layout where everything is done right??? 
