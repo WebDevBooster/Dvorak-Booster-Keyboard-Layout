@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<base href="https://www.freepascal.org/docs-html/current/rtl/keyboard/index.html">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Reference for unit 'keyboard'</title>
+<style data-savepage-href="../fpdoc.css" type="text/css">/*
+  $Id: fpdoc.cst,v 1.1 2005/01/02 16:22:16 michael Exp $
+
+  Default style sheet for FPDoc reference documentation
+  by Sebastian Guenther, sg@freepascal.org
+
+  Feel free to use this file as a template for your own style sheets.
+*/
+
+body {
+  background: white
+}
+
+body, p, th, td, caption, h1, h2, h3, ul, ol, dl {
+  color: black;
+  font-family: sans-serif
+}
+
+tt, span.kw, pre {
+  font-family: Courier, monospace
+}
+
+body, p, th, td, caption, ul, ol, dl, tt, span.kw, pre {
+  font-size: 14px
+}
+
+A:link {
+  color: blue
+}
+
+A:visited {
+  color: darkblue
+}
+
+A:active {
+  color: red
+}
+
+A {
+  text-decoration: none
+}
+
+A:hover {
+  text-decoration: underline
+}
+
+h1, h2, td.h2 {
+  color: #005A9C
+}
+
+/* Especially for Netscape on Linux: */
+h3, td.h3 {
+  font-size: 12pt
+}
+
+/* source fragments */
+span.code {
+  white-space: nowrap
+}
+
+/* symbols in source fragments */
+span.sym {
+  color: darkred
+}
+/* No wordwrap in code fragments */
+span.code {
+   white-space: nowrap
+}
+
+/* keywords in source fragments */
+span.kw {
+  font-weight: bold
+}
+
+/* comments in source fragments */
+span.cmt {
+  color: darkcyan;
+  font-style: italic
+}
+
+/* directives in source fragments */
+span.dir {
+  color: darkyellow;
+  font-style: italic
+}
+
+/* numbers in source fragments */
+span.num {
+  color: darkmagenta
+}
+
+/* characters (#...) in source fragments */
+span.chr {
+  color: darkcyan
+}
+
+/* strings in source fragments */
+span.str {
+  color: blue
+}
+
+/* assembler passages in source fragments */
+span.asm {
+  color: green
+}
+
+
+td.pre {
+  white-space: pre
+}
+
+p.cmt {
+  color: gray
+}
+
+span.warning {
+  color: red;
+  font-weight: bold
+}
+
+/* !!!: How should we define this...? */
+span.file {
+  color: darkgreen
+}
+
+table.remark {
+  background-color: #ffffc0;
+}
+
+table.bar {
+  background-color: #a0c0ff;
+}
+
+td p {
+ margin: 0;
+}
+
+span.bartitle {
+  font-weight: bold;
+  font-style: italic;
+  color: darkblue
+}
+
+/*
+ul.classtreelist li.classtree {
+    background: url(minus.png) center left no-repeat;
+}
+ul.classtreelist li.classtreeclosed {
+    background: url(plus.png) center left no-repeat;
+}
+*/
+span.toggletreeclose {
+    background: /*savepage-url=minus.png*/ url() center left no-repeat;
+    padding-left: 20px; 
+}
+span.toggletreeopen {
+    background: /*savepage-url=plus.png*/ url() center left no-repeat;
+    padding-left: 20px; 
+}
+
+ul.classtreelist li { padding-left: 0px; }
+
+ul.classtreelist { list-style-type:none; }
+
+li.classtree ul { display: block; }
+
+li.classtreeclosed ul { display: none; }
+</style>
+
+
+<link rel="icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8AMTFjADFjnABjnM4AY87/AFb/zgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMPMDMDED8/ETP/H/P//xMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAMAAAAAAAADAQAAAwEQMz8QAAAz8z8T8zAAExM/MxEwAAAxExMRMxMAACM/MzEiMTMQIiMzMyMTIyMAAAAAAEMjMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA">
+<style id="savepage-cssvariables">
+  :root {
+  }
+</style>
+<script id="savepage-shadowloader" type="application/javascript">
+  "use strict"
+  window.addEventListener("DOMContentLoaded",
+  function(event)
+  {
+    savepage_ShadowLoader(5);
+  },false);
+  function savepage_ShadowLoader(c){createShadowDOMs(0,document.documentElement);function createShadowDOMs(a,b){var i;if(b.localName=="iframe"||b.localName=="frame"){if(a<c){try{if(b.contentDocument.documentElement!=null){createShadowDOMs(a+1,b.contentDocument.documentElement)}}catch(e){}}}else{if(b.children.length>=1&&b.children[0].localName=="template"&&b.children[0].hasAttribute("data-savepage-shadowroot")){b.attachShadow({mode:"open"}).appendChild(b.children[0].content);b.removeChild(b.children[0]);for(i=0;i<b.shadowRoot.children.length;i++)if(b.shadowRoot.children[i]!=null)createShadowDOMs(a,b.shadowRoot.children[i])}for(i=0;i<b.children.length;i++)if(b.children[i]!=null)createShadowDOMs(a,b.children[i])}}}
+</script>
+<meta name="savepage-url" content="https://www.freepascal.org/docs-html/current/rtl/keyboard/index.html">
+<meta name="savepage-title" content="Reference for unit 'keyboard'">
+<meta name="savepage-from" content="https://www.freepascal.org/docs-html/current/rtl/keyboard/index.html">
+<meta name="savepage-date" content="Fri Aug 07 2020 05:46:14 GMT+0100 (British Summer Time)">
+<meta name="savepage-state" content="Standard Items; Retain cross-origin frames; Merge CSS images; Remove unsaved URLs; Allow passive mixed content; Max frame depth = 5; Max resource size = 50MB; Max resource time = 10s;">
+<meta name="savepage-version" content="20.9">
+<meta name="savepage-comments" content="">
+  </head>
+<body data-gr-c-s-loaded="true">
+<table class="bar" width="100%" border="0" cellpadding="4" cellspacing="0">
+<tbody><tr>
+<td><b>[Overview][<a href="../keyboard/index-2.html">Constants</a>][<a href="../keyboard/index-3.html">Types</a>][<a href="../keyboard/index-5.html">Procedures and functions</a>][<a href="../keyboard/index-8.html">Index</a>]</b></td>
+<td align="right"><span class="bartitle">Reference for unit 'keyboard' (<a href="../index.html">#rtl</a>)</span></td>
+</tr>
+</tbody></table>
+<h1>Reference for unit 'keyboard'</h1>
+<p>Access to low-level keyboard functions</p>
+<h2>Overview</h2>
+<p>The <span class="file">Keyboard</span> unit implements a keyboard access layer which is system independent. It can be used to poll the keyboard state and wait for certain events. Waiting for a keyboard event can be done with the <a href="../keyboard/getkeyevent.html">GetKeyEvent</a> function, which will return a driver-dependent key event. This key event can be translated to a interpretable event by the <a href="../keyboard/translatekeyevent.html">TranslateKeyEvent</a> function. The result of this function can be used in the other event examining functions. </p>
+<p>A custom keyboard driver can be installed using the <a href="../keyboard/setkeyboarddriver.html">SetKeyboardDriver</a> function. The current keyboard driver can be retrieved using the <a href="../keyboard/getkeyboarddriver.html">GetKeyboardDriver</a> function. The last section of this chapter demonstrates how to make a keyboard driver. </p>
+<h2>Related topics</h2>
+<table cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td valign="top"><p><tt><span class="code"><a href="../keyboard/kbdunix.html">kbdunix</a></span></tt></p></td>
+<td><p>  </p></td>
+<td><p class="cmt">Unix specific notes</p></td>
+</tr>
+<tr>
+<td valign="top"><p><tt><span class="code"><a href="../keyboard/kbddriver.html">kbddriver</a></span></tt></p></td>
+<td><p>  </p></td>
+<td><p class="cmt">Writing a keyboard driver</p></td>
+</tr>
+<tr>
+<td valign="top"><p><tt><span class="code"><a href="../keyboard/kbdscancode.html">kbdscancode</a></span></tt></p></td>
+<td><p>  </p></td>
+<td><p class="cmt">Keyboard scan codes</p></td>
+</tr>
+</tbody></table>
+<hr>
+
+<span class="footer">Documentation generated on: Jun 22 2020</span>
+
+
+<div style="display: none;"></div></body></html>
