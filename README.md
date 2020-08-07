@@ -21,7 +21,7 @@ It was developed to solve a common and very annoying problem with mechanical typ
 The levers for the letters (each letter was attached to an individual mechanical lever) 
 would often interlock if you typed too fast. 
 
-I have actually experienced this problem first hand (a very long time ago) when I tried to type on a mechanical type writer. While I wasn't typing fast, occasionally I would press two adjacent keys together by accident... 
+I have actually experienced this problem first hand (a very long time ago) when I tried to type on a mechanical typewriter. While I wasn't typing fast, occasionally I would press two adjacent keys together by accident... 
 
 And every time that happened, it was a very annoying and time consuming mess. Getting those levers unstuck wasn't easy and you had to get your fingers dirty etc. etc. It was a mess. 
 
