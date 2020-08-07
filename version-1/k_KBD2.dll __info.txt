@@ -1,0 +1,8 @@
+
+k_KBD2.dll goes into: 
+C:\Windows\SysWOW64
+and: 
+C:\Windows\System32
+
+This will make the "Dvorak-Booster v1" layout available.
+

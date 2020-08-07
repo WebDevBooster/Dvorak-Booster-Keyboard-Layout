@@ -1,0 +1,12 @@
+
+In order to make key combinations 
+like CTRL + C etc. work the same way as standard 
+(i.e. correcsponding to the keys as printed on the keyboard)
+the virtual keys must be set to the same values 
+that you see printed on the keyboard. 
+
+Use the file: 
+virtual keys DEFAULT.txt
+for reference.
+
+

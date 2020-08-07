@@ -1,0 +1,13 @@
+
+Adding thin arrow (->) above the fat arrow (=>) on the same key.
+
+So, to get the fat arrow: 
+AltGr + "-"
+
+To get the thin arrow: 
+Shift + AltGr + "-"
+
+
+The M5 trigger is:
+AltGr + X (letter B on the keyboard).
+
