@@ -29,9 +29,9 @@ Long story short, the original (standard) keyboard layouts (for each language) w
 
 And when computers and computer keyboards got invented (without any mechanical levers attached to the keys), the same old keyboard layouts were copied unchanged. 
 
-Once I learned this simple fact, there was NO way I would learn this standard keyboard layout that was designed for SLOW typing. 
+Once I learned this simple fact (shortly after I decided to learn touch typing), it became instantly clear to me that I can't possibly waste time on learning a keyboard layout that was designed for SLOW typing. 
 
-So, I learned a keyboard layout that was actually... 
+Instead, I decided to learn a keyboard layout that was actually... 
 
 * optimized for typing on a computer
 * optimized for typing fast
@@ -42,6 +42,8 @@ That keyboard layout was [**Dvorak**](https://en.wikipedia.org/wiki/Dvorak_keybo
 Dvorak was the first keyboard layout designed and optimized specifically for making typing easier and faster. 
 
 In other words, Dvorak was the first **sane** keyboard layout for computers. Using the mechanical typewriter layout for computer keyboards is idiotic and insane. And not telling people who want to learn touch typing, not telling them the truth about the 150-year old mechanical typewriter layout is gross negligence. 
+
+Although I suppose most people are just ignorant about those facts and never bother to do a basic research. They never even consider that there might be something wrong with the standard QUERTY layout. 
 
 There were just 2 problems with the Dvorak layout for typing standard English texts: 
 
