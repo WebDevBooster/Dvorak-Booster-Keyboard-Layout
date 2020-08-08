@@ -6,23 +6,6 @@ It also makes it easy to type in the [dozenal (base 12) system](https://en.wikip
 
 The Dvorak-Booster layout also makes it possible to type in any Latin-alphabet-based (European) language *without switching the keyboard layout*. Although Dvorak-Booster is not optimized for typing in those other languages primarily.
 
-By the way: 
-
-### You DON'T need to buy a new keyboard!
-
-And you certainly don't need to put any stickers 
-on your existing keyboard. 
-
-Switching a computer keyboard is done via software and **you'll never need to look at the keyboard** because typing without looking at the keyboard is the whole point of **touch typing**.
-
-And the Dvorak-Booster keyboard layout is optimized for touch typing so well and makes touch typing so easy and pleasant that **you'll never want to look at the keyboard** when typing!
-
-So, in case you've been a slave of the computer keyboard until now i.e. forced to look at the keyboard when typing using just one or two fingers, the Dvorak-Booster layout will liberate you from that slavery within 5 days from now and typing will become unbelievably easy and fun for you. 
-
-You'll also make much fewer typos/errors because with each key stroke you'll immediately see what you are typing. 
-
-So, those 5 days (that you'll invest to master the Dvorak-Booster layout now) will pay dividends for the rest of your life! And if you are coming from the standard Dvorak or from the Programmer Dvorak layout, you'll only need to invest 2 or 3 days to **master "antigravity" while typing**.
-
 ## Table of Contents
 
 ### 1 Why
@@ -139,14 +122,19 @@ And this is why I decided to get it done myself.
 
 In this chapter, I'll detail the rationale (for those who are curious) but first let me tell you: 
 
-Yes, I realize that if you're already used to the standard Dvorak layout (as I was), then for the next 2 and a half days (or maybe even for 3 entire days) you'll be very annoyed because the "u" and the "i" keys are swapped here. But once you get used to it (after 3 solid days of usage), you'll never look back! I promise. 
+### You DON'T need to buy a new keyboard!
 
-3 days is the sacrifice that you'll need to bring if you're coming from standard Dvorak. 
-People coming from QUERTY will need to sacrifice 5 days. Imagine that! 
+And you certainly don't need to put any stickers 
+on your existing keyboard. 
 
-But hey! Sometimes, in life, you have to sacrifice an old, fat, lame donkey if you want to gain a young, fresh, slender racing horse... 
+Switching a computer keyboard is done via software and **you'll never need to look at the keyboard** because typing without looking at the keyboard is the whole point of **touch typing**.
 
-Nothing's free in this life.  
-Except for free software, of course. 
+And the Dvorak-Booster keyboard layout is optimized for touch typing so well and makes touch typing so easy and pleasant that **you'll never want to look at the keyboard** when typing!
+
+So, in case you've been a slave of the computer keyboard until now i.e. forced to look at the keyboard when typing using just one or two fingers, the Dvorak-Booster layout will liberate you from that slavery within 5 days from now and typing will become **unbelievably easy and fun** for you. 
+
+You'll also make much fewer typos/errors because with each key stroke you'll immediately see what you are typing. 
+
+So, those 5 days (that you'll invest to master the Dvorak-Booster layout now) will pay dividends for the rest of your life! And if you are coming from the standard Dvorak or from the Programmer Dvorak layout, you'll only need to invest 2 or 3 days to **master "antigravity" while typing**.
 
 
