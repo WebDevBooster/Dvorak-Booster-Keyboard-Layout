@@ -6,6 +6,17 @@ It also makes it easy to type in the [dozenal (base 12) system](https://en.wikip
 
 The Dvorak-Booster layout also makes it possible to type in any Latin-alphabet-based (European) language *without switching the keyboard layout*. Although Dvorak-Booster is not optimized for typing in those other languages primarily.
 
+By the way: 
+
+### You DON'T need to buy a new keyboard!
+
+And you certainly don't need to put any stickers 
+on your existing keyboard. 
+
+Switching a computer keyboard is done via software and **you'll never need to look at the keyboard** because typing without looking at the keyboard is the whole point of **touch typing**.
+
+And the Dvorak-Booster keyboard layout is optimized for touch typing so well and makes touch typing so easy and pleasant that **you'll never want to look at the keyboard** when typing!
+
 ## Table of Contents
 
 ### 1 Why
