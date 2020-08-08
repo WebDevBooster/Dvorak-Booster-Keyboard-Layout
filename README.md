@@ -23,9 +23,9 @@ I initially did a research before learning
 and I quickly realized that 
 ```diff
 ! the standard keyboard layout i.e. 
-! keyboard layouts used on 
+! the keyboard layout used on 
 ! all standard computer keyboards today 
-! were specifically developed 
+! was specifically developed 
 ! to SLOW DOWN TYPING!
 ```
 
