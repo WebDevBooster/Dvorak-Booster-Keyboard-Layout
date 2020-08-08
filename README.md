@@ -17,6 +17,12 @@ Switching a computer keyboard is done via software and **you'll never need to lo
 
 And the Dvorak-Booster keyboard layout is optimized for touch typing so well and makes touch typing so easy and pleasant that **you'll never want to look at the keyboard** when typing!
 
+So, in case you've been a slave of the computer keyboard until now i.e. forced to look at the keyboard when typing using just one or two fingers, the Dvorak-Booster layout will liberate you from that slavery within 5 days from now and typing will become unbelievably easy and fun for you. 
+
+You'll also make much fewer typos/errors because with each key stroke you'll immediately see what you are typing. 
+
+So, those 5 days (that you'll invest to master the Dvorak-Booster layout now) will pay dividends for the rest of your life! And if you are coming from the standard Dvorak or from the Programmer Dvorak layout, you'll only need to invest 2 or 3 days to **master "antigravity" while typing**.
+
 ## Table of Contents
 
 ### 1 Why
