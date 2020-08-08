@@ -138,3 +138,40 @@ You'll also make much fewer typos/errors because with each key stroke you'll imm
 So, those 5 days (that you'll invest to master the Dvorak-Booster layout now) will pay dividends for the rest of your life! And if you are coming from the standard Dvorak or from the Programmer Dvorak layout, you'll only need to invest 2 or 3 days to **master "antigravity" while typing**.
 
 
+### What would be the ideal layout?
+
+The ideal keyboard layout would be one where your 8 fingers are always resting on the home row and your thumbs are resting on the space bar. 
+
+In other words, with the ideal keyboard layout you'd be able to type everything without ever lifting a finger! 
+
+Of course, that's not feasible but if it was such keyboard layout would be ideal. 
+
+OK. What's the next best thing that IS feasible? 
+
+The next best option is a keyboard layout where 
+you'd have to **move the fingers as little as possible to be able to type as much as possible**. And use the strongest fingers as much as possible when you have to move above or below the home row. 
+
+Additionally, it's important to be able to type frequently used character combinations ([bigrams](https://en.wikipedia.org/wiki/Bigram) and [trigrams](https://en.wikipedia.org/wiki/Trigram) such as "the", "and" etc.) "fluently" i.e. on the home row, where the fingers rest and in a way where the hands are alternating rhythmically and the strongest fingers do most of the work. 
+
+The numbers row is the hardest and the bottom row is the second hardest to reach. And the hardest to reach on the numbers row are the outer parts of that row (because you're using the weakest fingers there and the fingers have to travel the farthest to reach there). 
+
+So, the least frequently used characters should be assigned/mapped to the hardest to reach keys.
+
+This means:  
+None of the special characters that a frequently used in programming can be mapped to the keys on the numbers row. **Not a single one!**  
+The numbers row must be used for numbers only.
+
+And the numbers on the numbers row need be arranged in a way that makes [the most frequently used numbers](https://en.wikipedia.org/wiki/Benford%27s_law) the easiest to reach. Bearing in mind that alternating between hands is desirable. 
+
+That's why I arranged the numbers the way I did. 
+
+The middle key on the numbers row is used for the number `dek` and the number `el` which are the two additional single digit numbers in the [dozenal system](https://en.wikipedia.org/wiki/Duodecimal). 
+
+I'm temporarily borrowing the [Cyrillic capital letter HA with hook (&#1276;)](https://en.wiktionary.org/wiki/%D3%BC) for the number `dek` and the [Ukrainian capital letter IE (&#1028;)](https://en.wiktionary.org/wiki/%D0%84#Translingual) for the number `el`. This is because the dozenal system is not yet fully "fleshed out" but I do want to do my best to help bring it into mainstream use in civilized countries. 
+
+For human use, the dozenal system is vastly superior to the decimal system and I hope that one day dozenal will become the main numeral system for every day use. The Dvorak-Booster keyboard layout can be viewed as a small step or tool contributing to the adoption of the dozenal system. 
+
+The usage of the inverted numbers 2 and 3 for the numbers `dek` and `el` is wrong and should be completely abandoned. Whoever came up with the idea of using those inverted numbers for this purpose doesn't understand even the basics of persuasion. And you'll need a lot of persuasion if you seriously intend to establish a new numeral system in the world. 
+
+Note: I'm not trying to persuade anyone here.  
+The above 2 paragraphs are just a side note. 
