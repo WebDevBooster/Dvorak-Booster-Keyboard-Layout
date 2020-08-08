@@ -20,8 +20,8 @@ The Dvorak-Booster layout also makes it possible to type in any Latin-alphabet-b
 When I originally learned to touch type, 
 I initially did a research before learning 
 (because I like to do things thoroughly) 
-and I quickly realized that the standard keyboard layout i.e. the keyboard layout used on **all standard computer keyboards** today 
-was actually developed, **specifically developed to SLOW DOWN TYPING!** 
+and I quickly realized that the standard keyboard layout i.e. the <mark>keyboard layout used on **all standard computer keyboards** today</mark> 
+was actually developed, <mark>**specifically developed to SLOW DOWN TYPING!**</mark>
 
 Hard to believe but it's true.  
 The standard keyboard layout that's being used for computers today is the same that was originally developed for **mechanical typewriters**. 
