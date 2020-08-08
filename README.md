@@ -184,3 +184,5 @@ Both numbers are extremely easy to write for handwriting, extremely easy to spel
 
 The number `dek` has a resemblance with the Roman numeral X (which is very much desirable because that association works in favor of acceptance). And the number `el` resembles a capital E (which makes it seem logical and easy to remember which once again works in favor of acceptance).
 
+I'm not sure if I'd seen the symbol for `dek` somewhere before. The idea for that glyph just came to me after a nap. I tried to search hoping that this symbol already exists in unicode but couldn't find anything. It's super easy to write on paper because you don't have to lift the pen when writing it. It's just one easy movement (starting from top left).
+
