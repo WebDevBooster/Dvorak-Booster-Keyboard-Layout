@@ -175,3 +175,12 @@ The usage of the inverted numbers 2 and 3 for the numbers `dek` and `el` is wron
 
 Note: I'm not trying to persuade anyone here.  
 The above 2 paragraphs are just a side note. 
+
+Here's my draft for what the numbers `dek` and `el` should approximately look like in Arial font (compared to the other numbers): 
+
+![Dozenal numbers](./images/dozenal-numbers-draft.png)
+
+Both numbers are extremely easy to write for handwriting, extremely easy to spell out and short i.e. "dek" and "el" and extremely easy to pronounce.
+
+The number `dek` has a resemblance with the Roman numeral X (which is very much desirable because that association works in favor of acceptance). And the number `el` resembles a capital E (which makes it seem logical and easy to remember which once again works in favor of acceptance).
+
