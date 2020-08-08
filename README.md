@@ -62,7 +62,7 @@ Therefore the letter "i" MUST be mapped ([see layout rationale](#layout-rational
 
 2) The numbers (on the number row) aren't positioned in accordance with their [frequency distribution](https://en.wikipedia.org/wiki/Benford%27s_law). So, the most frequently used numbers (1 and 0) are still hard to reach and thus harder to type on a Dvorak layout. Of course, numbers aren't used as often in normal English texts. This might have been the reason why August Dvorak had neglected the numbers row.
 
-But numbers are used a lot in programming. Which brings us to the next point: 
+But numbers are used a lot in programming (as well as lots of special characters, brackets and braces). Which brings us to the next point: 
 
 The standard Dvorak layout isn't designed for programming. 
 
@@ -74,7 +74,8 @@ While Programmer Dvorak is much more programmer-friendly, it's still what I woul
 ### Why do something in a half-assed way if you can do it right?
 
 I really don't have an answer to that question.  
-It's always been a mystery to me why people do that. 
+It's always been a mystery to me why people do that.  
+And it was painful for me to see that the Programmer Dvorak implementation was done so poorly.
 
 So: 
 
