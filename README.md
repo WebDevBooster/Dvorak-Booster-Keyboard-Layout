@@ -2,11 +2,20 @@
 
 The Dvorak-Booster keyboard layout is better optimized for typing in English than standard Dvorak and better optimized for programming than Programmer Dvorak. 
 
-It also makes it easy to type in the dozenal (base 12) system and the layout of numbers is optimized according to their frequency (unlike standard Dvorak and Programmer Dvorak). 
+It also makes it easy to type in the [dozenal (base 12) system](https://en.wikipedia.org/wiki/Duodecimal) and the general layout of numbers is optimized according to their [frequency distribution](https://en.wikipedia.org/wiki/Benford%27s_law) (unlike standard Dvorak and Programmer Dvorak). 
 
-The Dvorak-Booster layout also makes it possible to type in any European (Latin-based) language without switching the keyboard layout.
+The Dvorak-Booster layout also makes it possible to type in any Latin-alphabet-based (European) language *without switching the keyboard layout*. Although Dvorak-Booster is not optimized for typing in those other languages primarily.
 
-## How and Why
+## Table of Contents
+
+### 1 Why
+* #### [1.1 The History](#11-the-history)
+
+* #### [1.2 Layout Rationale](#12-layout-rationale)
+
+--- 
+
+## 1.1 The History
 
 When I originally learned to touch type, 
 I initially did a research before learning 
@@ -48,7 +57,8 @@ Although I suppose most people are just ignorant about those facts and never bot
 There were just 2 problems with the Dvorak layout for typing standard English texts: 
 
 1) For reasons unknown to me the "i" key and the "u" key aren't positioned according to their frequency on the Dvorak layout.  
-They have to be swapped because the letter "i" is much more common in English than the letter "u". Therefore the letter "i" must be mapped to one of the "resting position" keys on the keyboard. The most logical way to correct this mistake by August Dvorak (the creator of the original Dvorak layout) is to swap the positions of the "u" and the "i" keys.
+They have to be swapped because the letter "i" is much more common in English than the letter "u". The letter "i" is used around 7.5% of the time while the letter "u" is used (depending on the source) between [2.758%](https://en.wikipedia.org/wiki/Letter_frequency) and [3.6308%](https://www3.nd.edu/~busiforc/handouts/cryptography/letterfrequencies.html) of the time. And in programming also: The letter "i" (often used as an iterator variable in loops etc.) is much more frequently used than "u".  
+Therefore the letter "i" MUST be mapped ([see layout rationale](#12-layout-rationale)) to one of the "resting position" keys on the keyboard. The most logical way to correct this mistake by August Dvorak (the creator of the original Dvorak layout) is to swap the positions of the "u" and the "i" keys.
 
 2) The numbers (on the number row) aren't positioned in accordance to their frequency in normal English texts. So, the most frequently used numbers (0 and 1) are still hard to reach and thus harder to type on a Dvorak layout. Of course, numbers aren't used as often in normal English texts. This might have been the reason why August Dvorak had neglected the numbers row.
 
@@ -59,7 +69,7 @@ The standard Dvorak layout isn't designed for programming.
 This is why the [**Programmer Dvorak**](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout#Programmer_Dvorak) version was developed. 
 
 BUT:  
-While Programmer Dvorak is much more programmer-friendly, in my opinion, Programmer Dvorak is what I would call a "half-assed" effort.
+While Programmer Dvorak is much more programmer-friendly, it's still what I would call a "half-assed" effort.
 
 ### Why do something in a half-assed way if you can do it right?
 
@@ -74,7 +84,9 @@ The Dvorak-Booster keyboard layout is merely just my attempt to "do things right
 I like doing things right.** 
 
 
-This is WHY I have developed this keyboard layout that I named Dvorak-Booster.
+This is WHY I have developed this keyboard layout.
+
+I named it Dvorak-Booster because Dvorak is the primary basis, the starting point and I fully embrace [the philosophy and the rationale of the Dvorak layout](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout#Overview). I'm just adding a few bits and pieces to turn a very good keyboard layout into a GREAT one. Thus, I'm adding my name to it.
 
 #### I just want a keyboard layout that's done RIGHT! 
 
@@ -98,7 +110,9 @@ This is just BEYOND my understanding.
 And this is why I decided to get it done myself. 
 
 
-## Layout Rationale
+## 1.2 Layout Rationale
+
+In this chapter, I'll detail the rationale (for those who are curious) but first let me tell you: 
 
 Yes, I realize that if you're already used to the standard Dvorak layout (as I was), then for the next 2 and a half days (or maybe even for 3 entire days) you'll be very annoyed because the "u" and the "i" keys are swapped here. But once you get used to it (after 3 solid days of usage), you'll never look back! I promise. 
 
