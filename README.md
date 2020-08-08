@@ -9,13 +9,13 @@ The Dvorak-Booster layout also makes it possible to type in any Latin-alphabet-b
 ## Table of Contents
 
 ### 1 Why
-* #### [1.1 The History](#11-the-history)
+* #### [1.1 The History](#the-history)
 
-* #### [1.2 Layout Rationale](#12-layout-rationale)
+* #### [1.2 Layout Rationale](#layout-rationale)
 
 --- 
 
-## 1.1 The History
+## The History
 
 When I originally learned to touch type, 
 I initially did a research before learning 
@@ -58,7 +58,7 @@ There were just 2 problems with the Dvorak layout for typing standard English te
 
 1) For reasons unknown to me the "i" key and the "u" key aren't positioned according to their frequency on the Dvorak layout.  
 They have to be swapped because the letter "i" is much more common in English than the letter "u". The letter "i" is used around 7.5% of the time while the letter "u" is used (depending on the source) between [2.758%](https://en.wikipedia.org/wiki/Letter_frequency) and [3.6308%](https://www3.nd.edu/~busiforc/handouts/cryptography/letterfrequencies.html) of the time. And in programming also: The letter "i" (often used as an iterator variable in loops etc.) is much more frequently used than "u".  
-Therefore the letter "i" MUST be mapped ([see layout rationale](#12-layout-rationale)) to one of the "resting position" keys on the keyboard. The most logical way to correct this mistake by August Dvorak (the creator of the original Dvorak layout) is to swap the positions of the "u" and the "i" keys.
+Therefore the letter "i" MUST be mapped ([see layout rationale](#layout-rationale)) to one of the "resting position" keys on the keyboard. The most logical way to correct this mistake by August Dvorak (the creator of the original Dvorak layout) is to swap the positions of the "u" and the "i" keys.
 
 2) The numbers (on the number row) aren't positioned in accordance to their frequency in normal English texts. So, the most frequently used numbers (0 and 1) are still hard to reach and thus harder to type on a Dvorak layout. Of course, numbers aren't used as often in normal English texts. This might have been the reason why August Dvorak had neglected the numbers row.
 
@@ -110,7 +110,7 @@ This is just BEYOND my understanding.
 And this is why I decided to get it done myself. 
 
 
-## 1.2 Layout Rationale
+## Layout Rationale
 
 In this chapter, I'll detail the rationale (for those who are curious) but first let me tell you: 
 
