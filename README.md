@@ -167,7 +167,7 @@ That's why I arranged the numbers the way I did.
 
 The middle key on the numbers row is used for the number `dek` and the number `el` which are the two additional single digit numbers in the [dozenal system](https://en.wikipedia.org/wiki/Duodecimal). 
 
-I'm temporarily borrowing the [Cyrillic capital letter HA with hook (&#1276;)](https://en.wiktionary.org/wiki/%D3%BC) for the number `dek` and the [Ukrainian capital letter IE (&#1028;)](https://en.wiktionary.org/wiki/%D0%84#Translingual) for the number `el`. This is because the dozenal system is not yet fully "fleshed out" but I do want to do my best to help bring it into mainstream use. 
+I'm temporarily borrowing the [Cyrillic capital letter HA with hook (&#1276;)](https://en.wiktionary.org/wiki/%D3%BC) for the number `dek` and the ~~Ukrainian capital letter IE (&#1028;)~~ [Latin capital letter open E (&#400;)](https://en.wiktionary.org/wiki/%C6%90) for the number `el`. This is because the dozenal system is not yet fully "fleshed out" but I do want to do my best to help bring it into mainstream use. 
 
 For human use, the dozenal system is vastly superior to the decimal system and I hope that one day dozenal will become the main numeral system for every day use. The Dvorak-Booster keyboard layout can be viewed as a small step or tool contributing to the adoption of the dozenal system. 
 
