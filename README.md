@@ -171,18 +171,27 @@ I'm temporarily borrowing the [Cyrillic capital letter HA with hook (&#1276;)](h
 
 For human use, the dozenal system is vastly superior to the decimal system and I hope that one day dozenal will become the main numeral system for every day use. The Dvorak-Booster keyboard layout can be viewed as a small step or tool contributing to the adoption of the dozenal system. 
 
-The usage of the inverted numbers 2 and 3 for the numbers `dek` and `el` is wrong and should be completely abandoned. Whoever came up with the idea of using those inverted numbers for this purpose doesn't understand even the basics of persuasion. And you'll need a lot of persuasion if you seriously intend to establish a new numeral system in the world. 
+The usage of the inverted numbers 2 and 3 for the numbers `dek` and `el` is wrong and should be completely abandoned. Whoever came up with the idea of using those inverted numbers for this purpose doesn't understand even the basics of persuasion. And you'll need a lot of persuasion if you seriously intend to establish a new numeral system in the world.  
+Turning the numbers 2 and 3 upside down looks cheap and amateurish. It's instantly obvious that they are just upside down 2 and 3. We need something that looks like **NEW** numbers and something that looks good, not cheap.
 
 Note: I'm not trying to persuade anyone here.  
 The above 2 paragraphs are just a side note. 
 
 Here's my draft for what the numbers `dek` and `el` should approximately look like in Arial font (compared to the other numbers): 
 
-![Dozenal numbers](./images/dozenal-numbers-draft.png)
+![Dozenal numbers](./images/dozenal-numbers-draft2.png)
+
+The number el needs a designer's touch because that modified &#400; that I used in the above image isn't completely straight like the other numbers. There needs to be a normal, a bold and an italic version for both numbers (just like with all other numbers). The number el can't always be italic or "half italic".
 
 Both numbers are extremely easy to write for handwriting, extremely easy to spell out and short i.e. "dek" and "el" and extremely easy to pronounce.
 
 The number `dek` has a resemblance with the Roman numeral X (which is very much desirable because that association works in favor of acceptance). And the number `el` resembles a capital E (which makes it seem logical and easy to remember which once again works in favor of acceptance).
 
 I'm not sure if I'd seen the symbol for `dek` somewhere before. The idea for that glyph just came to me after a nap. I tried to search hoping that this symbol already exists in unicode but couldn't find anything. It's super easy to write on paper because you don't have to lift the pen when writing it. It's just one easy movement (starting from top left).
+
+**Update 9 August 2020:**
+
+Just found that there are mathematical operators [&#8905;](https://en.wiktionary.org/wiki/%E2%8B%89) and [&#8906;](https://en.wiktionary.org/wiki/%E2%8B%8A) that look very similar to what I envision for `dek` except they would need to be turned upright and also would have to be increased in size to match the size of a regular digit. 
+
+---
 
