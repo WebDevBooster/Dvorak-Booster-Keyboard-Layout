@@ -35,3 +35,6 @@ Once I have the time for this, I will start creating the dek and el glyphs for E
 And once the new, proper dek and el glyphs are available for a large number of free fonts, I will start contacting the owners of proprietary fonts and pointing out that these new glyphs need to be added to their fonts as well.
 
 So, with time, a vastly larger number of fonts (than what's available now, at the time of writing for the ugly versions) will get the proper glyphs for dek and el. Eventually, all fonts will start including these new, good-looking glyphs for dek and el by default.
+
+I'm also fully aware that we'll need **two new code points** allocated in Unicode for these new good-looking glyphs. And I know that this is not a trivial process. But I'm absolutely willing to do whatever it takes to make that happen.
+
