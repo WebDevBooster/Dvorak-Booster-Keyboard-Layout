@@ -70,6 +70,8 @@ Anyway, this transformer key (dead key) functionality for producing **custom out
 
 [Here is the first version of the "us" file](us_v1.0) that I used for the modified "dvp" layout. 
 
+### TODO: Restore the original "dvp" layout and copy what I currently have there under "dvp" into a new layout named "dvorak-booster".
+
 So, on Linux, change into the `/usr/share/X11/xkb/symbols` directory, create a backup copy of the "us" file there and then replace the contents of the "us" file with my version. 
 
 To copy that file to a remote server, `rsync` seems to be most suitable for the job. 
