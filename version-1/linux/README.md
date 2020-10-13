@@ -72,6 +72,11 @@ Anyway, this transformer key (dead key) functionality for producing **custom out
 
 ### TODO: Restore the original "dvp" layout and copy what I currently have there under "dvp" into a new layout named "dvorak-booster".
 
+Note:  
+The **mnemonic character names** such as "quotedbl", "dead_acute" and all the others are defined in  
+`/usr/include/X11/keysymdef.h`  
+and as pointed out in that file, you don't actually need any of those mnemonic names because any possible Unicode character can simply be used by itself. E.g. instead of "quotedbl" you can use "U0022" (without quotation marks) just as well.
+
 So, on Linux, change into the `/usr/share/X11/xkb/symbols` directory, create a backup copy of the "us" file there and then replace the contents of the "us" file with my version. 
 
 To copy that file to a remote server, `rsync` seems to be most suitable for the job. 
