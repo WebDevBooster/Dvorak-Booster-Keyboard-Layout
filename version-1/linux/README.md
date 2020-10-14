@@ -84,7 +84,24 @@ See also [this documentation on X Keyboard Extension](https://www.x.org/wiki/gui
 
 To set the keyboard using the X Keyboard Extension, follow the [setxkbmap documentation here](https://www.x.org/releases/X11R7.7/doc/man/man1/setxkbmap.1.xhtml).
 
-Here's another documentation page on [X keyboard extension](https://wiki.archlinux.org/index.php/X_keyboard_extension) that might be worth reading.
+Here's another documentation page on [X keyboard extension](https://wiki.archlinux.org/index.php/X_keyboard_extension) that might be worth reading. Using `xev -event keyboard` command you can explore key codes for individual keyboard keys. 
+
+Example output for the 'a' key: 
+
+```shell script
+KeyPress event, serial 28, synthetic NO, window 0x3000001,
+    root 0x17c, subw 0x0, time 40419817, (1109,-96), root:(1334,584),
+    state 0x10, keycode 38 (keysym 0x61, a), same_screen YES,
+    XLookupString gives 1 bytes: (61) "a"
+    XmbLookupString gives 1 bytes: (61) "a"
+    XFilterEvent returns: False
+
+KeyRelease event, serial 28, synthetic NO, window 0x3000001,
+    root 0x17c, subw 0x0, time 40419933, (1109,-96), root:(1334,584),
+    state 0x10, keycode 38 (keysym 0x61, a), same_screen YES,
+    XLookupString gives 1 bytes: (61) "a"
+    XFilterEvent returns: False
+```
 
 To add the option for selecting the Dvorak-Booster keyboard layout for US English on Linux, the file `us` located in `/usr/share/X11/xkb/symbols/` needs to be modified to add the `dvorak-booster` keymap variant there.
 
