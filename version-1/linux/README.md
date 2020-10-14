@@ -127,3 +127,5 @@ was yielding this error on CentOS 7:
 
 That appears to be coming from SElinux but I didn't want to disable SElinux just to copy over a file.
 
+And of course, you'll only need to go through the trouble of overwriting that "us" file at the beginning. As time progresses, more and more distros will start including the Dvorak-Booster keyboard layout variant. At that point, it will be just a matter of switching to this new layout the same way you'd switch to any other layout including Standard Dvorak or Programmer Dvorak. 
+
