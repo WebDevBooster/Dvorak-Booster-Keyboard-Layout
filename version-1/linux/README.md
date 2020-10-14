@@ -75,27 +75,36 @@ Anyway, this transformer key (dead key) functionality for producing **custom out
 Note:  
 The **mnemonic character names** such as "quotedbl", "dead_acute" and all the others are defined in  
 `/usr/include/X11/keysymdef.h`  
-and as pointed out in that file, you don't actually need any of those mnemonic names because any possible Unicode character can simply be used by itself. E.g. instead of "quotedbl" you can use "U0022" (without quotation marks) just as well.
+and as pointed out in that file, you don't actually need any of those mnemonic names because any possible Unicode character can simply be used by itself. E.g. instead of "quotedbl" you can use "U0022" (without quotation marks) just as well. And the key definitions such as `<TLDE>`, `<AE01>` etc. are in  
+`/X11/xkb/keycodes/evdev`. 
 
-So, on Linux, change into the `/usr/share/X11/xkb/symbols` directory, create a backup copy of the "us" file there and then replace the contents of the "us" file with my version. 
+See also [this documentation on X Keyboard Extension](https://www.x.org/wiki/guide/hutterer-kbd/) for more information regarding keycodes and keymap conversion.
 
-To copy that file to a remote server, `rsync` seems to be most suitable for the job. 
+`setxkbmap -print` lists current keymap components. 
 
-I first ran the following command to copy (via ssh) the 'us' file 
-which, in my case, is located in /home/alex/Desktop/ on the local system to the Desktop of the remote server:  
+To set the keyboard using the X Keyboard Extension, follow the [setxkbmap documentation here](https://www.x.org/releases/X11R7.7/doc/man/man1/setxkbmap.1.xhtml).
+
+To add the option for selecting the Dvorak-Booster keyboard layout for US English on Linux, the file `us` located in `/usr/share/X11/xkb/symbols/` needs to be modified to add the `dvorak-booster` keymap variant there.
+
+So, change into the `/usr/share/X11/xkb/symbols/` directory, create a backup copy of the "us" file there (`sudo cp us us_BK`) and then replace the contents of the "us" file with my version. 
+
+To copy my "us" file from local to a remote server, `rsync` seems to be most suitable for the job. However, when doing it directly on CentOS 7 things seem to be getting blocked by SElinux. So, you'd probably have to do that in 2 steps.
+
+First run the following command to copy (via ssh) the 'us' file 
+which, in my case, is located in /home/alex/Desktop/ on the local machine to the Desktop of the remote server:  
 `rsync -e ssh /home/alex/Desktop/us alex@192.168.1.8:~/usr/share/X11/xkb/symbols`.
 
 Obviously, replace "alex@192.168.1.8" with your user name and server IP.
 
 `-e "ssh options"` specifies ssh as the remote shell. 
 
-Then I login or ssh onto that remote server and use the following command to copy the 'us' file from the desktop to the '/usr/share/X11/xkb/symbols' folder:  
+Then login or ssh onto that remote server and use the following command to copy the 'us' file from the desktop of the remote server into the '/usr/share/X11/xkb/symbols/' folder:  
 `sudo rsync /home/alex/Desktop/us /usr/share/X11/xkb/symbols`
 
-Trying to do that in one step via this command:  
+As mentioned, trying to do that in one step i.e. from a local machine via:  
 `sudo rsync -e ssh /home/alex/Desktop/us alex@192.168.1.8:/usr/share/X11/xkb/symbols`  
 was yielding this error on CentOS 7:  
 `rsync: mkstemp "/usr/share/X11/xkb/symbols/.us.ie2EEP" failed: Permission denied (13)`
 
-That error appears to be coming from SElinux but I didn't want to disable SElinux just to copy over a file.
+That appears to be coming from SElinux but I didn't want to disable SElinux just to copy over a file.
 
