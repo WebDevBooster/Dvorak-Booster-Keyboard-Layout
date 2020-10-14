@@ -13,6 +13,10 @@ The Dvorak-Booster layout also makes it possible to type in any Latin-alphabet-b
 
 * #### [1.2 Layout Rationale](#layout-rationale)
 
+    - ##### [1.2.1 What Would Be The Ideal Layout?](what-would-be-the-ideal-layout)
+    
+    - ##### [1.2.2 Why Is The Dozenal System Superior?](#what-is-the-dozenal-system-and-why-is-it-superior)
+
 --- 
 
 ## The History
@@ -165,9 +169,41 @@ And the numbers on the numbers row need be arranged in a way that makes [the mos
 
 That's why I arranged the numbers the way I did. 
 
-The middle key on the numbers row is used for the number `dek` and the number `el` which are the two additional single digit numbers in the [dozenal system](https://en.wikipedia.org/wiki/Duodecimal). 
+The middle key on the numbers row is used for the number `dek` and the number `el` which are the two additional single digit numbers in the dozenal system. 
 
-I'm temporarily borrowing the [Cyrillic capital letter HA with hook (&#1276;)](https://en.wiktionary.org/wiki/%D3%BC) for the number `dek` and the ~~Ukrainian capital letter IE (&#1028;)~~ [Latin capital letter open E (&#400;)](https://en.wiktionary.org/wiki/%C6%90) for the number `el`. This is because the dozenal system is not yet fully "fleshed out" but I do want to do my best to help bring it into mainstream use. 
+Huh? Dozenal system??... 
+
+### What is the Dozenal System and why is it superior?
+
+To understand that, you first need to answer the following question: 
+
+**Why aren't we, humans, counting in binary??** 
+
+After all, computers are counting and calculating complex maths problems just fine using only 2 digits ones and zeros. 
+
+So, why don't we, humans, use that binary numeral system? Why do humans usually use the decimal system for counting and doing maths in every day life? Why mess around with 10 digits (0-9) if 2 digits (0 and 1) is all you need for counting and maths? 
+
+That's because the decimal system is a lot easier and more practical in every day life **for humans**. That's why. 
+
+Well, guess what? 
+
+It turns out the **DOZENAL system** (please don't ever use the word "duodecimal" for that) is a lot easier and more practical still! 
+
+For humans. In every day life. 
+
+And while ignorant cavemen can only count up to 10 on two hands (10 in decimal is 1010 in binary by the way), a modern educated person can easily count up to a **dozen dozens** on the same two hands! 
+
+A dozen dozens (better known as one gro and written as ´100) is 144 in decimal and 10010000 in binary. 
+
+Long story short, it's a ***mathematical fact*** that the [dozenal system is vastly superior](https://en.wikipedia.org/wiki/Duodecimal) when compared to the decimal system.  
+For humans.  
+In every day life.  
+While computers are doing just fine with the binary system.
+
+So, the dozenal system IS the future. And unless you want to live in a cave for the rest of your life (and go back to eating raw meat and spend all day hunting for food just to survive), we will be using the dozenal system for counting in the future. 
+
+
+Anyway, I'm temporarily borrowing the [Cyrillic capital letter HA with hook (&#1276;)](https://en.wiktionary.org/wiki/%D3%BC) for the number `dek` and the ~~Ukrainian capital letter IE (&#1028;)~~ [Latin capital letter open E (&#400;)](https://en.wiktionary.org/wiki/%C6%90) for the number `el`. This is because the dozenal system is not yet fully "fleshed out" but I do want to do my best to help bring it into mainstream use. 
 
 For human use, the dozenal system is vastly superior to the decimal system and I hope that one day dozenal will become the main numeral system for every day use. The Dvorak-Booster keyboard layout can be viewed as a small step or tool contributing to the adoption of the dozenal system. 
 
