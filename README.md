@@ -193,15 +193,27 @@ For humans. In every day life.
 
 And while ignorant cavemen can only count up to 10 on two hands (10 in decimal is 1010 in binary by the way), a modern educated person can easily count up to a **dozen dozens** on the same two hands! 
 
-A dozen dozens (better known as one gro and written as ´100) is 144 in decimal and 10010000 in binary. 
+A dozen dozens (better known as one gro - pronounced 'ɡroʊ' - and written as ´100) is 144 in decimal and 10010000 in binary. 
 
 Long story short, it's a ***mathematical fact*** that the [dozenal system is vastly superior](https://en.wikipedia.org/wiki/Duodecimal) when compared to the decimal system.  
 For humans.  
 In every day life.  
 While computers are doing just fine with the binary system.
 
-So, the dozenal system IS the future. And unless you want to live in a cave for the rest of your life (and go back to eating raw meat and spend all day hunting for food just to survive), we will be using the dozenal system for counting in the future. 
+So, the dozenal system IS the future. And unless you want to live in a cave for the rest of your life (and go back to eating raw meat and spend all day every day hunting for food just to survive), we will be using the dozenal system for counting in the future.  
+No ifs, no buts.
 
+The two additional single digit numbers that we use in the decimal system are the number ***dek*** and the number ***el***. 
+
+So, it's zero, one, two, three, four, five, six, seven, eight, nine, dek, el, do (pronounced 'doʊ') or dozen. And as a civilized person, you use your thumb and the dozen [phalanges on the fingers](https://en.wikipedia.org/wiki/Phalanx_bone) of one hand to count to a dozen while using the thumb and the dozen phalanges of the other hand to keep track of the number of dozens you count. That way, counting up to a dozen dozens using two hands is as easy as raspberry pi and if you use your toes, you could go astronomical! :-) 
+
+But the main advantage of the dozenal system over the decimal system is... well... I'll let you to figure that out on your own... 
+
+Suffice to say, we'd already have a working warp drive by now if humans started counting in dozenal two centuries ago... 
+
+Instead of spending one or two hours just to get from one end of a city like London or New York to another, you could zip to [Alpha Centauri](https://en.wikipedia.org/wiki/Alpha_Centauri) (which is 4.4 light-years away) in an afternoon. Imagine that! 
+
+So, if you want to make sure that at least your kids (or grandkids) get to visit Alpha Centauri, you better start using the dozenal system NOW. Don't delay! You don't want your descendants to spit on your grave! 
 
 Anyway, I'm temporarily borrowing the [Cyrillic capital letter HA with hook (&#1276;)](https://en.wiktionary.org/wiki/%D3%BC) for the number `dek` and the ~~Ukrainian capital letter IE (&#1028;)~~ [Latin capital letter open E (&#400;)](https://en.wiktionary.org/wiki/%C6%90) for the number `el`. This is because the dozenal system is not yet fully "fleshed out" but I do want to do my best to help bring it into mainstream use. 
 
