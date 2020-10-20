@@ -116,6 +116,8 @@ which, in my case, is located in /home/alex/Desktop/ on the local machine to the
 Obviously, replace "alex@192.168.1.8" with your user name and server IP.
 
 `-e "ssh options"` specifies ssh as the remote shell. 
+And if you need to specify a non-standard port, you can do it like this:  
+`-e "ssh -p <port-number>"`
 
 Then login or ssh onto that remote server and use the following command to copy the 'us' file from the desktop of the remote server into the '/usr/share/X11/xkb/symbols/' folder:  
 `sudo rsync /home/alex/Desktop/us /usr/share/X11/xkb/symbols`
