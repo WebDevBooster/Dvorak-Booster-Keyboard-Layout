@@ -616,7 +616,7 @@ xkb_symbols "dvp" {
 };
 
 // Dvorak-Booster layout, by Alex Booster <abbooster at gmail dot com>
-// version 3.0.1
+// version 3.0.2
 // https://github.com/WebDevBooster/Dvorak-Booster-Keyboard-Layout
 //
 // Inspired by Dvorak/Programmer Dvorak and German Neo layout
@@ -709,6 +709,9 @@ xkb_symbols "dvorak-booster" {
     key <AB10> { [ z,               Z,              NoSymbol,           NoSymbol        ] };
 
     key <SPCE> { [ space,           space,          nobreakspace,       NoSymbol        ] };
+
+    // <KPDL> is the keypad delimiter. The colon with the AltGr combination is handy for entering times in the hh:mm format.
+    key <KPDL> { [ period,          comma,          colon,              NoSymbol        ] };
 
     // The "shift(both_capslock)" switch toggles CapsLock when *both* shift keys are pressed simultaneously.
     // So, pressing only one shift key when CapsLock is on, has the same effect as it normally would with CapsLock on.
