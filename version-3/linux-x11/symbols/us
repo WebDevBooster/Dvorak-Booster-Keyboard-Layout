@@ -616,7 +616,7 @@ xkb_symbols "dvp" {
 };
 
 // Dvorak-Booster layout, by Alex Booster <abbooster at gmail dot com>
-// version 3.0.2
+// version 3.0.3
 // https://github.com/WebDevBooster/Dvorak-Booster-Keyboard-Layout
 //
 // Inspired by Dvorak/Programmer Dvorak and German Neo layout
@@ -677,7 +677,6 @@ xkb_symbols "dvorak-booster" {
     key <AD12> { [ slash,           backslash,      dead_stroke,        NoSymbol        ] }; // dead_stroke for creating characters like Ø
 
     // home row, left side
-    // CapsLock is now toggled by pressing *both* shift keys simultaneously via the "shift(both_capslock)" switch (see below).
     key <CAPS> { [ semicolon,       Escape,         semicolon,          NoSymbol        ] }; // the first semicolon is supposed to be a dead key. That dead key functionality needs to be implemented via a third-party software since there doesn't seem to be a way to create *custom* dead keys natively.
     key <AC01> { [ a,               A,              at,                 ampersand       ] }; // @, &
     key <AC02> { [ o,               O,              bracketleft,        NoSymbol        ] }; // left square bracket '['
@@ -713,9 +712,26 @@ xkb_symbols "dvorak-booster" {
     // <KPDL> is the keypad delimiter. The colon with the AltGr combination is handy for entering times in the hh:mm format.
     key <KPDL> { [ period,          comma,          colon,              NoSymbol        ] };
 
-    // The "shift(both_capslock)" switch toggles CapsLock when *both* shift keys are pressed simultaneously.
-    // So, pressing only one shift key when CapsLock is on, has the same effect as it normally would with CapsLock on.
-    include "shift(both_capslock)"
+    // Lenovo ThinkPad keyboards have the printscreen key on the right of the AltGr key
+    // i.e. where the menu key would normally be on a standard keyboard.
+    // This is very annoying and is an unacceptable waste of a key that's easy to reach with the right thumb.
+    // So, I'm re-assigning the printscreen functionality to the combination of AltGr + printscreen key.
+    // This means that the printscreen key functionality would change accordingly on a standard keyboard as well.
+    // The menu functionality i.e. what you'd normally expect mapped to the menu key on the standard keyboard can now be reached in combination with the Shift key.
+    // And in unmodified state this key acts as a CapsLock key.
+    // Sys_Req is used on Linux for "magic shortcuts": https://en.wikipedia.org/wiki/Magic_SysRq_key TODO: test Sys_Req functionality
+    key <PRSC> { [ Caps_Lock,       Menu,           PrintScreen,        Sys_Req         ] };
+
+    // RWIN is the right Windows key (if it exists on the keyboard). Would be equivalent to the right command key (⌘) on an Apple keyboard (if that exists).
+    // So, with modifier keys it retains the original functionality but in unmodified state it acts as a CapsLock key.
+    key <RWIN> { [ Caps_Lock,       Super_R,        Super_R,            Super_R         ] };
+
+    // If the menu key exists on the keyboard, it retains the original functionality with modifier keys but unmodified acts as a CapsLock key.
+    // Of course, we only need *one* CapsLock key!
+    // But since you can never know which key actually comes on the right of the AltGr key on a given keyboard,
+    // I'm resorting to this duplication to make sure that on the right of the AltGr key there will always be the CapsLock key
+    // which is handy for typing the names of CONSTANTS in programming or long acronyms etc.
+    key <MENU> { [ Caps_Lock,       Menu,           Menu,               Menu            ] };
 
     // AltGr
     include "level3(ralt_switch)"
