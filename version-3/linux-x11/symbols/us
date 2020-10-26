@@ -615,8 +615,14 @@ xkb_symbols "dvp" {
     //include "level3(ralt_switch)"
 };
 
+// Replace the CapsLock key with semicolon/Escape/colon for Dvorak-Booster layout
+hidden partial modifier_keys
+xkb_symbols "capslock_to_semicolon_escape_colon" {
+    key <CAPS> { [ semicolon,   Escape,             colon,          VoidSymbol ] };
+};
+
 // Dvorak-Booster layout, by Alex Booster <abbooster at gmail dot com>
-// version 3.0.3
+// version 3.1.1
 // https://github.com/WebDevBooster/Dvorak-Booster-Keyboard-Layout
 //
 // Inspired by Dvorak/Programmer Dvorak and German Neo layout
@@ -634,7 +640,7 @@ xkb_symbols "dvorak-booster" {
     include "us(dvorak)"
     name[Group1] = "English (Dvorak-Booster)";
 
-    //             Unmodified       Shift           AltGr               Shift+AltGr
+    //             Unmodified   Shift               AltGr               Shift+AltGr
     // numbers row, left side
     key.type[Group1] = "FOUR_LEVEL_ALPHABETIC";
     // <TLDE> is the first key on the numbers row and on the UK keyboard
@@ -642,99 +648,89 @@ xkb_symbols "dvorak-booster" {
     // According to my research, broken bar is completely obsolete and the not sign isn't used enough to justify a key.
     // And after moving the backtick to a different key, I gave this first key a much better use:
     // It is now a right arrow key that you can actually reach!
-    key <TLDE> { [ Right,           Right,          Right,              Right           ] };
-    key <AE01> { [ 9,               dead_tilde,     NoSymbol,           NoSymbol        ] }; // dead tilde is used for producing letters like ñ/Ñ in Spanish and Portuguese while asciitilde (see below) is meant for all other uses
-    key <AE02> { [ 7,               NoSymbol,       NoSymbol,           NoSymbol        ] };
-    key <AE03> { [ 5,               NoSymbol,       NoSymbol,           NoSymbol        ] };
-    key <AE04> { [ 3,               NoSymbol,       NoSymbol,           NoSymbol        ] };
-    key <AE05> { [ 1,               dead_grave,     NoSymbol,           NoSymbol        ] }; // dead_grave/backtick (`) is for producing characters with a grave, for marking code in markdown etc. use AltGr+B (see below) because that one is not a dead key and is easier to reach
-    key <AE06> { [ U0190,           dead_acute,     acute,              NoSymbol        ] }; // Ɛ (temporary placeholder for number el in dozenal), forward tick (´)
+    key <TLDE> { [ Right,       Right,              Right,              Right           ] };
+    key <AE01> { [ 9,           dead_tilde,         NoSymbol,           NoSymbol        ] }; // dead tilde is used for producing letters like ñ/Ñ in Spanish and Portuguese while asciitilde (see below) is meant for all other uses
+    key <AE02> { [ 7,           dead_abovedot,      NoSymbol,           NoSymbol        ] }; // dead_abovedot U+0307
+    key <AE03> { [ 5,           dead_belowdot,      NoSymbol,           NoSymbol        ] }; // dead_belowdot U+0323
+    key <AE04> { [ 3,           dead_diaeresis,     NoSymbol,           NoSymbol        ] }; // ¨ diaeresis dead key for characters like ä, ö, ü etc.
+    key <AE05> { [ 1,           dead_grave,         NoSymbol,           NoSymbol        ] }; // dead_grave/backtick (`), for marking code in markdown etc. use grave (see below) because that one is not a dead key and is easier to reach
+    key <AE06> { [ U0190,       dead_acute,         acute,              NoSymbol        ] }; // Ɛ (temporary placeholder for number el in dozenal), forward tick (´)
 
     // numbers row, right side
-    key <AE07> { [ 0,               degree,         dead_abovering,     NoSymbol        ] }; // dead_abovering for characters like å
-    key <AE08> { [ 2,               NoSymbol,       NoSymbol,           NoSymbol        ] };
-    key <AE09> { [ 4,               NoSymbol,       NoSymbol,           NoSymbol        ] };
-    key <AE10> { [ 6,               NoSymbol,       NoSymbol,           NoSymbol        ] };
-    key <AE11> { [ 8,               NoSymbol,       NoSymbol,           NoSymbol        ] };
-    key <AE12> { [ U04FC,           NoSymbol,       NoSymbol,           NoSymbol        ] }; // Ӽ (temporary placeholder for the number dek in dozenal)
-    key <BKSP> { [ BackSpace,       BackSpace,      NoSymbol,           NoSymbol        ] };
+    key <AE07> { [ 0,           dead_abovering,     degree,             NoSymbol        ] }; // dead_abovering for characters like å
+    key <AE08> { [ 2,           dead_doubleacute,   NoSymbol,           NoSymbol        ] }; // dead_doubleacute: U030B (̋ )
+    key <AE09> { [ 4,           dead_circumflex,    NoSymbol,           NoSymbol        ] }; // U005E circumflex accent (^), for programming use asciicircum (see below)
+    key <AE10> { [ 6,           dead_caron,         NoSymbol,           NoSymbol        ] }; // U030C (̌ )
+    key <AE11> { [ 8,           dead_macron,        NoSymbol,           NoSymbol        ] }; // dead_macron U+0304
+    key <AE12> { [ U04FC,       dead_breve,         NoSymbol,           NoSymbol        ] }; // Ӽ (temporary placeholder for the number dek in dozenal), dead_breve U+0306
+    key <BKSP> { [ BackSpace,   BackSpace,          Delete,             Delete          ] };
 
     // upper row, left side
-    key <AD01> { [ Left,            Left,           Left,               Left            ] }; // left arrow key that you can actually reach! (handy for correcting typos etc)
+    key <AD01> { [ Left,        Left,               Left,               Left            ] }; // left arrow key that you can actually reach! (handy for correcting typos etc)
     // the first comma is supposed to be a dead key. That dead key functionality needs to be implemented via a third-party software since there doesn't seem to be a way to create *custom* dead keys natively
-    key <AD02> { [ comma,           exclamdown,     comma,              NoSymbol        ] }; // inverted exclamation mark
-    key <AD03> { [ period,          exclam,         asterisk,           dead_diaeresis  ] }; // !, *, ¨ (diaeresis dead key for characters like ä, ö, ü etc.)
-    key <AD04> { [ p,               P,              bar,                section         ] }; // bar = pipe/vertical line (|), §
-    key <AD05> { [ y,               Y,              percent,            yen             ] }; // %, ¥
+    key <AD02> { [ comma,       dead_cedilla,       comma,              NoSymbol        ] }; // dead_cedilla for characters like ç
+    key <AD03> { [ period,      exclam,             asterisk,           exclamdown      ] }; // !, *, inverted exclamation mark
+    key <AD04> { [ p,           P,                  at,                 NoSymbol        ] }; // @
+    key <AD05> { [ y,           Y,                  percent,            yen             ] }; // %, ¥
 
     // upper row, right side
-    key <AD06> { [ f,               F,              asciitilde,         NoSymbol        ] }; // ~
-    key <AD07> { [ g,               G,              numbersign,         NoSymbol        ] }; // #
-    key <AD08> { [ c,               C,              dead_circumflex,    copyright       ] }; // U+005E circumflex accent (^), copyright sign (©)
-    key <AD09> { [ r,               R,              registered,         trademark       ] }; // registered sign (®), trademark sign (™)
-    key <AD10> { [ l,               L,              sterling,           NoSymbol        ] }; // pound sign (£)
-    key <AD11> { [ plus,            question,       questiondown,       NoSymbol        ] }; // inverted question mark
-    key <AD12> { [ slash,           backslash,      dead_stroke,        NoSymbol        ] }; // dead_stroke for creating characters like Ø
+    key <AD06> { [ f,           F,                  asciitilde,         NoSymbol        ] }; // ~
+    key <AD07> { [ g,           G,                  grave,              NoSymbol        ] }; // backtick/grave (`)
+    key <AD08> { [ c,           C,                  numbersign,         copyright       ] }; // #, copyright sign (©)
+    key <AD09> { [ r,           R,                  backslash,          registered      ] }; // registered sign (®)
+    key <AD10> { [ l,           L,                  bar,                sterling        ] }; // bar = pipe/vertical line (|), pound sign (£)
+    key <AD11> { [ plus,        question,           asciicircum,        questiondown    ] }; // U+005E circumflex AKA caret (^), inverted question mark
+    key <AD12> { [ slash,       dead_stroke,        section,            NoSymbol        ] }; // dead_stroke for creating characters like Ø, §
 
     // home row, left side
-    key <CAPS> { [ semicolon,       Escape,         semicolon,          NoSymbol        ] }; // the first semicolon is supposed to be a dead key. That dead key functionality needs to be implemented via a third-party software since there doesn't seem to be a way to create *custom* dead keys natively.
-    key <AC01> { [ a,               A,              at,                 ampersand       ] }; // @, &
-    key <AC02> { [ o,               O,              bracketleft,        NoSymbol        ] }; // left square bracket '['
-    key <AC03> { [ e,               E,              braceleft,          EuroSign        ] }; // left curly brace '{', Euro symbol €
-    key <AC04> { [ i,               I,              parenleft,          NoSymbol        ] }; // left parenthesis '('
-    key <AC05> { [ u,               U,              less,               NoSymbol        ] }; // less-than sign '<'
+    // the semicolon on the <CAPS> key is supposed to be a dead key.
+    // That dead key functionality needs to be implemented via a third-party software since there doesn't seem to be a way to create *custom* dead keys natively.
+    // UPDATE: the <CAPS> key here has been replaced by "capslock_to_semicolon_escape_colon" include (see below).
+    // Leaving the following comment here for reference.
+    // key <CAPS> { [ semicolon,   Escape,             colon,              NoSymbol        ] };
+    key <AC01> { [ a,           A,                  ampersand,          NoSymbol        ] }; // &
+    key <AC02> { [ o,           O,                  bracketleft,        NoSymbol        ] }; // left square bracket '['
+    key <AC03> { [ e,           E,                  braceleft,          EuroSign        ] }; // left curly brace '{', Euro symbol €
+    key <AC04> { [ i,           I,                  parenleft,          NoSymbol        ] }; // left parenthesis '('
+    key <AC05> { [ u,           U,                  less,               NoSymbol        ] }; // less-than sign '<'
 
     // home row, right side
-    key <AC06> { [ d,               D,              greater,            NoSymbol        ] }; // greater-than sign '>'
-    key <AC07> { [ h,               H,              parenright,         NoSymbol        ] }; // right parenthesis ')'
-    key <AC08> { [ t,               T,              braceright,         NoSymbol        ] }; // right curly brace '}'
-    key <AC09> { [ n,               N,              bracketright,       NoSymbol        ] }; // right square bracket ']'
-    key <AC10> { [ s,               S,              dollar,             ssharp          ] }; // $, ssharp = ß (German "s sharp", called eszett or scharfes S in German)
-    key <AC11> { [ minus,           emdash,         underscore,         NoSymbol        ] };
-    key <BKSL> { [ equal,           colon,          equal,              NoSymbol        ] }; // the first equal is supposed to be a dead key. That dead key functionality needs to be implemented via a third-party software since there doesn't seem to be a way to create *custom* dead keys natively.
+    key <AC06> { [ d,           D,                  greater,            NoSymbol        ] }; // greater-than sign '>'
+    key <AC07> { [ h,           H,                  parenright,         NoSymbol        ] }; // right parenthesis ')'
+    key <AC08> { [ t,           T,                  braceright,         NoSymbol        ] }; // right curly brace '}'
+    key <AC09> { [ n,           N,                  bracketright,       NoSymbol        ] }; // right square bracket ']'
+    key <AC10> { [ s,           S,                  dollar,             ssharp          ] }; // $, ssharp = ß (German "s sharp", called eszett or scharfes S in German)
+    key <AC11> { [ minus,       emdash,             underscore,         NoSymbol        ] };
+    key <BKSL> { [ equal,       NoSymbol,           equal,              NoSymbol        ] }; // the first equal is supposed to be a dead key. That dead key functionality needs to be implemented via a third-party software since there doesn't seem to be a way to create *custom* dead keys natively.
+    key <RTRN> { [ Return,      Return,             semicolon,          NoSymbol        ] }; // return/enter key producing semicolon with AltGr pressed
 
     // lower row, left side
     // LSGT = 'left greater than' character
-    key <LSGT> { [ apostrophe,      U201A,          U2018,              U2019           ] }; // low single quotation mark (‚), left + right single quotation mark (‘ ’),
-    key <AB01> { [ quotedbl,        U201E,          U201C,              U201D           ] }; // low double quotation mark („), left + right double quotation mark (“ ”),
-    key <AB02> { [ q,               Q,              dead_cedilla,       U25C4           ] }; // dead_cedilla for characters like ç, ◄
-    key <AB03> { [ j,               J,              NoSymbol,           U25BA           ] }; // ►
-    key <AB04> { [ k,               K,              NoSymbol,           NoSymbol        ] };
-    key <AB05> { [ x,               X,              U00D7,              NoSymbol        ] }; // multiplication sign (×)
-    key <AB06> { [ b,               B,              grave,              emfilledcircle  ] }; // backtick/grave (`), emfilledcircle = ● (big bullet point)
-    key <AB07> { [ m,               M,              U00B5,              NoSymbol        ] }; // µ
-    key <AB08> { [ w,               W,              NoSymbol,           NoSymbol        ] };
-    key <AB09> { [ v,               V,              dead_caron,         U2611           ] }; // ☑
-    key <AB10> { [ z,               Z,              NoSymbol,           NoSymbol        ] };
+    key <LSGT> { [ apostrophe,  U201A,              U2018,              U2019           ] }; // low single quotation mark (‚), left + right single quotation mark (‘ ’),
+    key <AB01> { [ quotedbl,    U201E,              U201C,              U201D           ] }; // low double quotation mark („), left + right double quotation mark (“ ”),
+    key <AB02> { [ q,           Q,                  NoSymbol,           U25C4           ] }; // ◄
+    key <AB03> { [ j,           J,                  NoSymbol,           U25BA           ] }; // ►
+    key <AB04> { [ k,           K,                  Down,               NoSymbol        ] };
+    key <AB05> { [ x,           X,                  U00D7,              NoSymbol        ] }; // multiplication sign (×)
+    key <AB06> { [ b,           B,                  Up,                 emfilledcircle  ] }; // emfilledcircle = ● (big bullet point)
+    key <AB07> { [ m,           M,                  U00B5,              NoSymbol        ] }; // µ
+    key <AB08> { [ w,           W,                  NoSymbol,           NoSymbol        ] };
+    key <AB09> { [ v,           V,                  NoSymbol,           U2611           ] }; // ☑
+    key <AB10> { [ z,           Z,                  NoSymbol,           NoSymbol        ] };
 
-    key <SPCE> { [ space,           space,          nobreakspace,       NoSymbol        ] };
+    key <SPCE> { [ space,       space,              nobreakspace,       NoSymbol        ] };
 
     // <KPDL> is the keypad delimiter. The colon with the AltGr combination is handy for entering times in the hh:mm format.
-    key <KPDL> { [ period,          comma,          colon,              NoSymbol        ] };
-
-    // Lenovo ThinkPad keyboards have the printscreen key on the right of the AltGr key
-    // i.e. where the menu key would normally be on a standard keyboard.
-    // This is very annoying and is an unacceptable waste of a key that's easy to reach with the right thumb.
-    // So, I'm re-assigning the printscreen functionality to the combination of AltGr + printscreen key.
-    // This means that the printscreen key functionality would change accordingly on a standard keyboard as well.
-    // The menu functionality i.e. what you'd normally expect mapped to the menu key on the standard keyboard can now be reached in combination with the Shift key.
-    // And in unmodified state this key acts as a CapsLock key.
-    // Sys_Req is used on Linux for "magic shortcuts": https://en.wikipedia.org/wiki/Magic_SysRq_key TODO: test Sys_Req functionality
-    key <PRSC> { [ Caps_Lock,       Menu,           PrintScreen,        Sys_Req         ] };
-
-    // RWIN is the right Windows key (if it exists on the keyboard). Would be equivalent to the right command key (⌘) on an Apple keyboard (if that exists).
-    // So, with modifier keys it retains the original functionality but in unmodified state it acts as a CapsLock key.
-    key <RWIN> { [ Caps_Lock,       Super_R,        Super_R,            Super_R         ] };
-
-    // If the menu key exists on the keyboard, it retains the original functionality with modifier keys but unmodified acts as a CapsLock key.
-    // Of course, we only need *one* CapsLock key!
-    // But since you can never know which key actually comes on the right of the AltGr key on a given keyboard,
-    // I'm resorting to this duplication to make sure that on the right of the AltGr key there will always be the CapsLock key
-    // which is handy for typing the names of CONSTANTS in programming or long acronyms etc.
-    key <MENU> { [ Caps_Lock,       Menu,           Menu,               Menu            ] };
+    key <KPDL> { [ period,      NoSymbol,           colon,              NoSymbol        ] };
 
     // AltGr
     include "level3(ralt_switch)"
+
+    // Replace the CapsLock key with semicolon/Escape
+    include "us(capslock_to_semicolon_escape_colon)"
+
+    // toggle CapsLock by simultaneously pressing both shift keys
+    include "shift(both_capslock)"
 };
 
 
