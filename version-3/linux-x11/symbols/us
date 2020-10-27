@@ -622,7 +622,7 @@ xkb_symbols "capslock_to_semicolon_escape_colon" {
 };
 
 // Dvorak-Booster layout, by Alex Booster <abbooster at gmail dot com>
-// version 3.1.1
+// version 3.1.2
 // https://github.com/WebDevBooster/Dvorak-Booster-Keyboard-Layout
 //
 // Inspired by Dvorak/Programmer Dvorak and German Neo layout
@@ -644,30 +644,26 @@ xkb_symbols "dvorak-booster" {
     // numbers row, left side
     key.type[Group1] = "FOUR_LEVEL_ALPHABETIC";
     // <TLDE> is the first key on the numbers row and on the UK keyboard
-    // it was mapped to dead grave (`), not sign (¬) and broken bar (¦) on the first 3 levels.
-    // According to my research, broken bar is completely obsolete and the not sign isn't used enough to justify a key.
-    // And after moving the backtick to a different key, I gave this first key a much better use:
-    // It is now a right arrow key that you can actually reach!
+    // it was originally mapped to dead grave (`), not sign (¬) and broken bar (¦) on the first 3 levels.
     key <TLDE> { [ Right,       Right,              Right,              Right           ] };
-    key <AE01> { [ 9,           dead_tilde,         NoSymbol,           NoSymbol        ] }; // dead tilde is used for producing letters like ñ/Ñ in Spanish and Portuguese while asciitilde (see below) is meant for all other uses
-    key <AE02> { [ 7,           dead_abovedot,      NoSymbol,           NoSymbol        ] }; // dead_abovedot U+0307
-    key <AE03> { [ 5,           dead_belowdot,      NoSymbol,           NoSymbol        ] }; // dead_belowdot U+0323
-    key <AE04> { [ 3,           dead_diaeresis,     NoSymbol,           NoSymbol        ] }; // ¨ diaeresis dead key for characters like ä, ö, ü etc.
-    key <AE05> { [ 1,           dead_grave,         NoSymbol,           NoSymbol        ] }; // dead_grave/backtick (`), for marking code in markdown etc. use grave (see below) because that one is not a dead key and is easier to reach
+    key <AE01> { [ 9,           dead_tilde,         NoSymbol,           NoSymbol        ] }; // dead tilde is for characters like ñ/Ñ; for programming use asciitilde (see below)
+    key <AE02> { [ 7,           dead_abovedot,      NoSymbol,           NoSymbol        ] }; // dead_abovedot: U+0307
+    key <AE03> { [ 5,           dead_belowdot,      NoSymbol,           NoSymbol        ] }; // dead_belowdot: U+0323
+    key <AE04> { [ 3,           dead_diaeresis,     NoSymbol,           NoSymbol        ] }; // diaeresis dead key for characters like ä, ö, ü etc.
+    key <AE05> { [ 1,           dead_grave,         NoSymbol,           NoSymbol        ] }; // dead_grave/backtick (`); for use in markdown etc. use grave (see below)
     key <AE06> { [ U0190,       dead_acute,         acute,              NoSymbol        ] }; // Ɛ (temporary placeholder for number el in dozenal), forward tick (´)
 
     // numbers row, right side
     key <AE07> { [ 0,           dead_abovering,     degree,             NoSymbol        ] }; // dead_abovering for characters like å
-    key <AE08> { [ 2,           dead_doubleacute,   NoSymbol,           NoSymbol        ] }; // dead_doubleacute: U030B (̋ )
-    key <AE09> { [ 4,           dead_circumflex,    NoSymbol,           NoSymbol        ] }; // U005E circumflex accent (^), for programming use asciicircum (see below)
-    key <AE10> { [ 6,           dead_caron,         NoSymbol,           NoSymbol        ] }; // U030C (̌ )
-    key <AE11> { [ 8,           dead_macron,        NoSymbol,           NoSymbol        ] }; // dead_macron U+0304
-    key <AE12> { [ U04FC,       dead_breve,         NoSymbol,           NoSymbol        ] }; // Ӽ (temporary placeholder for the number dek in dozenal), dead_breve U+0306
+    key <AE08> { [ 2,           dead_doubleacute,   NoSymbol,           NoSymbol        ] }; // dead_doubleacute: U+030B
+    key <AE09> { [ 4,           dead_circumflex,    NoSymbol,           NoSymbol        ] }; // dead circumflex accent (^); for programming use asciicircum (see below)
+    key <AE10> { [ 6,           dead_caron,         NoSymbol,           NoSymbol        ] }; // dead caron: U+030C
+    key <AE11> { [ 8,           dead_macron,        NoSymbol,           NoSymbol        ] }; // dead macron: U+0304
+    key <AE12> { [ U04FC,       dead_breve,         NoSymbol,           NoSymbol        ] }; // Ӽ (temporary placeholder for the number dek in dozenal), dead breve: U+0306
     key <BKSP> { [ BackSpace,   BackSpace,          Delete,             Delete          ] };
 
     // upper row, left side
     key <AD01> { [ Left,        Left,               Left,               Left            ] }; // left arrow key that you can actually reach! (handy for correcting typos etc)
-    // the first comma is supposed to be a dead key. That dead key functionality needs to be implemented via a third-party software since there doesn't seem to be a way to create *custom* dead keys natively
     key <AD02> { [ comma,       dead_cedilla,       comma,              NoSymbol        ] }; // dead_cedilla for characters like ç
     key <AD03> { [ period,      exclam,             asterisk,           exclamdown      ] }; // !, *, inverted exclamation mark
     key <AD04> { [ p,           P,                  at,                 NoSymbol        ] }; // @
@@ -683,11 +679,8 @@ xkb_symbols "dvorak-booster" {
     key <AD12> { [ slash,       dead_stroke,        section,            NoSymbol        ] }; // dead_stroke for creating characters like Ø, §
 
     // home row, left side
-    // the semicolon on the <CAPS> key is supposed to be a dead key.
-    // That dead key functionality needs to be implemented via a third-party software since there doesn't seem to be a way to create *custom* dead keys natively.
-    // UPDATE: the <CAPS> key here has been replaced by "capslock_to_semicolon_escape_colon" include (see below).
-    // Leaving the following comment here for reference.
-    // key <CAPS> { [ semicolon,   Escape,             colon,              NoSymbol        ] };
+    // the <CAPS> key definition here has been replaced by "capslock_to_semicolon_escape_colon" include (see below)
+    // it maps semicolon/Escape/colon on the first 3 levels
     key <AC01> { [ a,           A,                  ampersand,          NoSymbol        ] }; // &
     key <AC02> { [ o,           O,                  bracketleft,        NoSymbol        ] }; // left square bracket '['
     key <AC03> { [ e,           E,                  braceleft,          EuroSign        ] }; // left curly brace '{', Euro symbol €
@@ -701,7 +694,7 @@ xkb_symbols "dvorak-booster" {
     key <AC09> { [ n,           N,                  bracketright,       NoSymbol        ] }; // right square bracket ']'
     key <AC10> { [ s,           S,                  dollar,             ssharp          ] }; // $, ssharp = ß (German "s sharp", called eszett or scharfes S in German)
     key <AC11> { [ minus,       emdash,             underscore,         NoSymbol        ] };
-    key <BKSL> { [ equal,       NoSymbol,           equal,              NoSymbol        ] }; // the first equal is supposed to be a dead key. That dead key functionality needs to be implemented via a third-party software since there doesn't seem to be a way to create *custom* dead keys natively.
+    key <BKSL> { [ equal,       NoSymbol,           equal,              NoSymbol        ] };
     key <RTRN> { [ Return,      Return,             semicolon,          NoSymbol        ] }; // return/enter key producing semicolon with AltGr pressed
 
     // lower row, left side
@@ -726,7 +719,7 @@ xkb_symbols "dvorak-booster" {
     // AltGr
     include "level3(ralt_switch)"
 
-    // Replace the CapsLock key with semicolon/Escape
+    // Replace the CapsLock key with semicolon/Escape/colon on the first 3 levels
     include "us(capslock_to_semicolon_escape_colon)"
 
     // toggle CapsLock by simultaneously pressing both shift keys
