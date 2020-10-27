@@ -628,7 +628,7 @@ xkb_symbols "capslock_to_semicolon_escape_colon" {
 // Inspired by Dvorak/Programmer Dvorak and German Neo layout
 //
 // The Dvorak-Booster keyboard layout is better optimized for typing in English than standard Dvorak
-// and better optimized for programming than Programmer Dvorak.
+// and better optimized for programming and typing on the command line than Programmer Dvorak.
 // It also makes it easy to type in the dozenal (base 12) system and the general layout of numbers
 // is optimized according to their frequency distribution (unlike standard Dvorak and Programmer Dvorak).
 // The Dvorak-Booster layout also makes it possible to type in any Latin-alphabet-based (European) language
@@ -664,8 +664,8 @@ xkb_symbols "dvorak-booster" {
 
     // upper row, left side
     key <AD01> { [ Left,        Left,               Left,               Left            ] }; // left arrow key that you can actually reach! (handy for correcting typos etc)
-    key <AD02> { [ comma,       dead_cedilla,       comma,              NoSymbol        ] }; // dead_cedilla for characters like ç
-    key <AD03> { [ period,      exclam,             asterisk,           exclamdown      ] }; // !, *, inverted exclamation mark
+    key <AD02> { [ comma,       dead_cedilla,       asterisk,           NoSymbol        ] }; // dead_cedilla for characters like ç
+    key <AD03> { [ period,      exclamdown,         exclam,             NoSymbol        ] }; // exclamdown = inverted exclamation mark
     key <AD04> { [ p,           P,                  at,                 NoSymbol        ] }; // @
     key <AD05> { [ y,           Y,                  percent,            yen             ] }; // %, ¥
 
@@ -675,7 +675,7 @@ xkb_symbols "dvorak-booster" {
     key <AD08> { [ c,           C,                  numbersign,         copyright       ] }; // #, copyright sign (©)
     key <AD09> { [ r,           R,                  backslash,          registered      ] }; // registered sign (®)
     key <AD10> { [ l,           L,                  bar,                sterling        ] }; // bar = pipe/vertical line (|), pound sign (£)
-    key <AD11> { [ plus,        question,           asciicircum,        questiondown    ] }; // U+005E circumflex AKA caret (^), inverted question mark
+    key <AD11> { [ plus,        questiondown,       question,           NoSymbol        ] }; // questiondown = inverted question mark
     key <AD12> { [ slash,       dead_stroke,        section,            NoSymbol        ] }; // dead_stroke for creating characters like Ø, §
 
     // home row, left side
@@ -694,8 +694,7 @@ xkb_symbols "dvorak-booster" {
     key <AC09> { [ n,           N,                  bracketright,       NoSymbol        ] }; // right square bracket ']'
     key <AC10> { [ s,           S,                  dollar,             ssharp          ] }; // $, ssharp = ß (German "s sharp", called eszett or scharfes S in German)
     key <AC11> { [ minus,       emdash,             underscore,         NoSymbol        ] };
-    key <BKSL> { [ equal,       NoSymbol,           equal,              NoSymbol        ] };
-    key <RTRN> { [ Return,      Return,             semicolon,          NoSymbol        ] }; // return/enter key producing semicolon with AltGr pressed
+    key <BKSL> { [ equal,       NoSymbol,           asciicircum,        NoSymbol        ] }; // circumflex AKA caret (^): U+005E
 
     // lower row, left side
     // LSGT = 'left greater than' character
