@@ -140,3 +140,39 @@ Here's an example of the commands I use to copy/rsync the files from the `linux-
 
 `sudo rsync /home/alex/Desktop/linux-x11/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml`
 
+Here's a page that shows the frequency of punctuation and special characters used in programing languages: 
+
+http://xahlee.info/comp/computer_language_char_distribution.html
+
+However, those stats don't provide the whole story. 
+
+For example, to create the code in this HTML snippet: 
+```html
+<div class="container"></div>
+```
+...only ONE special character, the dot `.` is required.
+
+This is because typing `.container` and pressing the tab key is all that's needed for emmet to expand `.container` to the code shown above. So, while that code snippet technically contains 8 special characters, none of them are actually typed on a keyboard when you are using emmet or use similar tools for the programming language of your choice. 
+
+And if I wanted to duplicate the above code (to add a second div with a class of container), I'd simply just use the shortcut `Ctrl+D` to achieve that. 
+
+So, automated code snippet expansion and shortcuts that generate code is one thing to consider when looking at statistical data like the data on this page: http://xahlee.info/comp/computer_language_char_distribution.html i.e. how much of the analyzed code was actually typed in on a keyboard vs. the code that was brought in automatically without typing? 
+
+Another important thing to consider are the special characters that you have to type in things like command line or in text editors like **vim** that are frequenty used in programming, git version control, server management etc. Those are very important things to consider because command line is a very important tool that almost all programmers use and the frequency of special characters that you need or have to use on the command line (or with an advanced text editor like vim) can be very different from the frequency of characters in code. 
+
+Here are just two examples: 
+
+The caret symbol (^) is used in vim as a command to jump to the beginning of a line i.e. very important and frequently used. 
+
+As an advanced user on the command line, you'll frequently use the `!$` combination to recall the last argument of the previously typed command (because that saves you a lot of typing). The bang `!` in general is used in many extremely handy [event designators](https://www.gnu.org/software/bash/manual/html_node/Event-Designators.html) on the command line (in bash).
+
+So, while the bang and the caret might *appear* to belong to the least frequently used when looking at the ["all programming languages" stats here](http://xahlee.info/comp/computer_language_char_distribution.html), in reality both the bang and the caret might be as much or more used as the less than `<` symbol when you only consider those things that you actually need to type on a keyboard as opposed to things that are being automatically generated for you with tools like emmet etc.
+
+By the way, you'll absolutely LOVE how easy and pleasant it is to type the `!$` combination on the Dvorak-Booster layout! It's basically just one fluid motion! 
+
+The Dvorak-Booster layout is designed so that ***typing ANY special characters is a JOY!!!*** On the Dvorak-Booster layout, ALL of the special characters that you'll ever need for coding or the command line are accessible on the two most easily accessible levels (base level and AltGr level) and (with the exception of the single and the double quote; both of which are on the base level) ALL of those special characters are located on the two most easily reachable rows (the home row and the top row). Think about that! 
+
+That combined with the fact that the Dvorak-Booster layout also allows you to reach ALL of the arrow keys and the delete key as well as the escape key WITHOUT ever taking your hands off the keyboard... that makes the Dvorak-Booster layout an absolute pleasure to use!
+
+It is probably only a slight exaggeration to say that the Dvorak-Booster layout is ***100 TIMES more pleasant to use*** than the Programmer Dvorak layout! And the Programmer Dvorak layout is already pretty good. 
+
