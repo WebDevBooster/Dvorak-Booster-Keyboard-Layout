@@ -1,10 +1,18 @@
 # Dvorak-Booster Keyboard Layout
 
-The Dvorak-Booster keyboard layout is better optimized for typing in English than standard Dvorak and better optimized for programming than Programmer Dvorak. 
+The Dvorak-Booster keyboard layout is better optimized for typing text in English than standard Dvorak and **MUCH better optimized for programming and the command line than Programmer Dvorak**. 
 
-It also makes it easy to type in the [dozenal (base 12) system](https://en.wikipedia.org/wiki/Duodecimal) and the general layout of numbers is optimized according to their [frequency distribution](https://en.wikipedia.org/wiki/Benford%27s_law) (unlike standard Dvorak and Programmer Dvorak). 
+ALL of the special characters for coding or command line are accessible on the two most easily accessible levels and almost all of those special characters are located on the two most easily reachable rows! 
 
-The Dvorak-Booster layout also makes it possible to type in any Latin-alphabet-based (European) language *without switching the keyboard layout*. Although Dvorak-Booster is not optimized for typing in those other languages primarily.
+In short: 
+
+> #### With Dvorak-Booster layout switched on, typing code or entering command line instructions feels like walking with an anti-gravity backpack!
+
+Joking aside, typing with Dvorak-Booster layout is ***so easy, effortless and so pleasant***, it almost feels like you are controlling the keyboard keys with your MIND!... Because the difficult, unpleasant and error-prone wrist and finger moves often required with other keyboard layouts have been eliminated on the Dvorak-Booster layout. 
+
+The Dvorak-Booster layout also makes it easy to type in the [dozenal (base 12) system](https://en.wikipedia.org/wiki/Duodecimal) and the general layout of numbers is optimized according to their [frequency distribution](https://en.wikipedia.org/wiki/Benford%27s_law) (unlike standard Dvorak and Programmer Dvorak). In other words, the most frequently typed numbers are the easiest to reach on the numbers row.
+
+And if you occasionally need to type in other languages beside English, you'll love the fact that Dvorak-Booster makes it possible to type in any Latin-alphabet-based (European) language *without switching the keyboard layout*. Although Dvorak-Booster is not optimized for typing in those other languages primarily. So, this is just an additional bonus feature. 
 
 ## Table of Contents
 
