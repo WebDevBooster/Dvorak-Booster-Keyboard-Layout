@@ -131,3 +131,12 @@ That appears to be coming from SElinux but I didn't want to disable SElinux just
 
 And of course, you'll only need to go through the trouble of overwriting that "us" file at the beginning. As time progresses, more and more distros will start including the Dvorak-Booster keyboard layout variant. At that point, it will be just a matter of switching to this new layout the same way you'd switch to any other layout including Standard Dvorak or Programmer Dvorak. 
 
+
+Here's an example of the commands I use to copy/rsync the files from the `linux-x11` folder (on the Desktop of the destination machine) to `/usr/share/X11/xkb/` folder: 
+
+`sudo rsync /home/alex/Desktop/linux-x11/symbols/us /usr/share/X11/xkb/symbols/us` 
+
+`sudo rsync /home/alex/Desktop/linux-x11/rules/evdev.lst /usr/share/X11/xkb/rules/evdev.lst`
+
+`sudo rsync /home/alex/Desktop/linux-x11/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml`
+
