@@ -18,7 +18,7 @@ Another great feature of Dvorak-Booster:
 
 ALL of the arrow keys (left, right, up, down) as well as the delete key as well as the **escape** key are easily reachable from the "home" i.e. default resting position! 
 
-So, if you want to be a command line or `vim` magician, Dvorak-Booster layout will be your trusty magic wand! For example, typing the `!$` combination (to recall the last argument of the previous command) is basically just one fluid and pleasant motion on the Dvorak-Booster layout! Very much like waving a magic wand. 
+So, if you want to be a command line or `vim` magician, Dvorak-Booster layout will be your trusty magic wand! For example, typing the `!$` combination (to recall the last argument of the previous command in bash) is basically just one fluid and pleasant motion on the Dvorak-Booster layout! Very much like waving a magic wand. 
 
 
 ## Table of Contents
