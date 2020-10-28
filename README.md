@@ -14,6 +14,13 @@ The Dvorak-Booster layout also makes it easy to type in the [dozenal (base 12) s
 
 And if you occasionally need to type in other languages beside English, you'll love the fact that Dvorak-Booster makes it possible to type in any Latin-alphabet-based (European) language *without switching the keyboard layout*. Although Dvorak-Booster is not optimized for typing in those other languages primarily. So, this is just an additional bonus feature. 
 
+Another great feature of Dvorak-Booster: 
+
+ALL of the arrow keys (left, right, up, down) as well as the delete key as well as the **escape** key are easily reachable from the "home" i.e. default resting position! 
+
+So, if you want to be a command line or `vim` magician, Dvorak-Booster layout will be your trusty magic wand! For example, typing the `!$` combination (to recall the last argument of the previous command) is basically just one fluid and pleasant motion on the Dvorak-Booster layout! Very much like waving a magic wand. 
+
+
 ## Table of Contents
 
 ### 1 Why
