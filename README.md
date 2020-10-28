@@ -20,6 +20,10 @@ ALL of the arrow keys (left, right, up, down) as well as the delete key as well 
 
 So, if you want to be a command line or `vim` magician, Dvorak-Booster layout will be your trusty magic wand! For example, typing the `!$` combination (to recall the last argument of the previous command in bash) is basically just one fluid and pleasant motion on the Dvorak-Booster layout! Very much like waving a magic wand. 
 
+Overall, Dvorak-Booster makes typing in English and typing for coding, command line and markup languages **MUCH more enjoyable**, reduces the stain on wrists and fingers and cuts down the number of typos to a minimum. That can make you happier and more productive. 
+
+I've put a LOT of time, thought, research and **testing** effort into developing the Dvorak-Booster keyboard layout because being able to type so effortlessly is great fun! And after several iterations of tweaking, challenging and questioning my own assumptions and ideas, throwing out some of my previous assumptions and ideas, re-designing, tweaking, testing, tweaking, testing and tweaking-testing again and again I finally ended up with a keyboard layout that really does feel pretty magical when you use it. This keyboard layout is probably as close to a magic wand as it's possible to get. 
+
 
 ## Table of Contents
 
