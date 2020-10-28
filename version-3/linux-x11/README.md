@@ -176,3 +176,14 @@ That combined with the fact that the Dvorak-Booster layout also allows you to re
 
 It is probably only a slight exaggeration to say that the Dvorak-Booster layout is ***100 TIMES more pleasant to use*** than the Programmer Dvorak layout! And the Programmer Dvorak layout is already pretty good. 
 
+Once you master the Dvorak-Booster layout — which, if you're coming from QUERTY is probably gonna take you 5 days and coming from classic Dvorak may take you 2-3 days — typing with the Dvorak-Booster layout is gonna feel like walking with an ***anti-gravity backpack!*** 
+
+What??...  
+You don't know what walking with an anti-gravity backpack feels like?... 
+
+Well, in that case, you definitely need to learn the Dvorak-Booster layout! Take 5 days off and do it! That will be the best 5 days of your LIFE! 
+
+After all, if somebody gave you an anti-gravity backpack, you'd be willing to spend 5 days on learning how to use it (to avoid fatal accidents and crashing into buildings), right? 
+
+So, go ahead, spend a few days on learning the Dvorak-Booster layout because after that you'll feel like you gained a new superpower! Or... you'll feel like someone gave you a new anti-gravity backpack! :-) 
+
