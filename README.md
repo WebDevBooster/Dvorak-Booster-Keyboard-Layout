@@ -32,7 +32,7 @@ I've put a LOT of time, thought, research and **testing** effort into developing
 
 * #### [1.2 Layout Rationale](#layout-rationale)
 
-    - ##### [1.2.1 What Would Be The Ideal Layout?](what-would-be-the-ideal-layout)
+    - ##### [1.2.1 What Would Be The Ideal Layout?](#what-would-be-the-ideal-layout)
     
     - ##### [1.2.2 Why Is The Dozenal System Superior?](#what-is-the-dozenal-system-and-why-is-it-superior)
 
