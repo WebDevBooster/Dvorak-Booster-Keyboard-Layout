@@ -82,7 +82,7 @@ Dvorak was the first keyboard layout designed and optimized specifically for mak
 
 In other words, Dvorak was the first **sane** keyboard layout for computers. Using the mechanical typewriter layout for computer keyboards is idiotic and insane. And not telling people who want to learn touch typing, not telling them the truth about the 150-year old mechanical typewriter layout is gross negligence. 
 
-Although I suppose most people are just ignorant about those facts and never bother to do a basic research. They never even consider that there might be something wrong with the standard QUERTY layout. 
+Although I suppose most people are just ignorant about those facts and never bother to do a basic research. They never even consider that there might be something wrong with the standard QWERTY layout. 
 
 There were just 2 problems with the Dvorak layout for typing standard English texts: 
 
