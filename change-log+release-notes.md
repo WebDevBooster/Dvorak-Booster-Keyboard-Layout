@@ -1,5 +1,11 @@
 # Change Log & Release Notes of the Dvorak-Booster Keyboard Layout
 
+3.1.4 (updated on 15 July 2023)
+
+Updated the `KbdEditInstaller_Dvorak-Booster_v3.1.4.exe` and the `Dvorak-Booster v3.1.4.kbe` files for this version because the inverted exclamation mark `¡` was a lower case `i` by mistake. 
+
+---
+
 3.1.4 (released in June 2022) 
 
 After many tweaks and iterations it finally occurred to me that I should add a change log here. :-) 
