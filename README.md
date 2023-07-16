@@ -103,11 +103,11 @@ I initially did a research before learning
 (because I like to do things thoroughly) 
 and I quickly realized that: 
 
-<mark><b>
-The standard keyboard layout that's used on all computer keyboards today was...  
+<b style="color: black; background-color: #FFFF00">
+The standard keyboard layout used on all computer keyboards today was...  
 specifically designed  
 to SLOW DOWN TYPING!
-</b></mark>
+</b>
 
 Hard to believe but it's true.
 
