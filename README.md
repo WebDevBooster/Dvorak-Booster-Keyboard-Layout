@@ -1,12 +1,19 @@
 # Dvorak-Booster Keyboard Layout
 
-The Dvorak-Booster keyboard layout is better optimized for typing text in English than standard Dvorak and **MUCH better optimized for programming and the command line than Programmer Dvorak**. 
+The Dvorak-Booster keyboard layout is: 
+* better optimized for typing text in English than standard Dvorak 
+* **MUCH better optimized for programming and the command line than Programmer Dvorak**
+* allows typing in [40+ languages](#one-keyboard-layout-for-40-languages)! 
 
-ALL of the special characters for coding or command line are accessible on the two most easily accessible levels and almost all of those special characters are located on the two most easily reachable rows! 
+ALL of the special characters for coding or command line are accessible on the two most easily accessible levels and almost all of those special characters are located on the two most easily reachable key rows! 
 
 In short: 
 
-> #### With Dvorak-Booster layout switched on, typing code or entering command line instructions feels like walking with an anti-gravity backpack!
+> #### With the Dvorak-Booster keyboard layout switched on, typing code or working on the command line feels like walking with an anti-gravity backpack!
+
+![anti-gravity backpack](./images/anti-gravity-backpack.png)  
+**Anti-gravity backpack: walking 100 miles a day without getting tired!**  
+This is what typing with the Dvorak-Booster layout feels like. 
 
 Joking aside, typing with Dvorak-Booster layout is ***so easy, effortless and so pleasant***, it almost feels like you are controlling the keyboard keys with your MIND!... Because the difficult, unpleasant and error-prone wrist and finger moves often required with other keyboard layouts have been eliminated on the Dvorak-Booster layout. 
 
