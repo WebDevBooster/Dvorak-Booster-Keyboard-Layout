@@ -22,9 +22,7 @@ The Dvorak-Booster layout also makes it easy to type in the [dozenal (base 12) s
 
 ### One keyboard layout for 40+ languages!
 
-If you occasionally need to type in other languages beside English, you'll love the fact that Dvorak-Booster makes it possible to type in any Latin-alphabet-based language ***without switching the keyboard layout***. Although Dvorak-Booster is not optimized for typing in those other languages primarily. So, this is just an additional bonus feature. 
-
-Here's a partial list of languages (aside from English) you can type in with the Dvorak-Booster layout: 
+The Dvorak-Booster layout allows you to type in the following languages (aside from English) ***without switching the keyboard layout***: 
 
 - Afrikaans
 - Albanian
@@ -65,6 +63,12 @@ Here's a partial list of languages (aside from English) you can type in with the
 - Turkish
 - Vietnamese
 - Welsh
+
+That's right, Dvorak-Booster makes it possible to type in any Latin-alphabet-based language ***without switching the keyboard layout***.
+
+And although Dvorak-Booster is only optimized for typing in English, typing in those other languages will be easier with Dvorak-Booster than with standard layouts for the corresponding languages. 
+
+This is simply due to the fact that all of the vowels are grouped on the home row for one hand. Just this fact alone already makes the Dvorak-Booster superior. This is because vowels are more frequently used than consonants. So, having all vowels grouped for one hand and on the home row makes typing easier and more fluid.
 
 
 ### All arrow keys easy to access
