@@ -101,13 +101,10 @@ I've put a LOT of time, thought, research and **testing** effort into developing
 When I originally learned to touch type, 
 I initially did a research before learning 
 (because I like to do things thoroughly) 
-and I quickly realized that: 
+and I quickly realized that:
 
-<b style="color: black; background-color: #FFFF00">
-The standard keyboard layout used on all computer keyboards today was...  
-specifically designed  
-to SLOW DOWN TYPING!
-</b>
+### The standard keyboard layout used on all computer keyboards today was... 
+### designed to SLOW DOWN TYPING!
 
 Hard to believe but it's true.
 
