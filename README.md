@@ -115,7 +115,8 @@ The levers for the letters (each letter was attached to an individual mechanical
 would often interlock if you typed too fast. 
 
 ![mechanical typewriter](./images/mechanical-typewriter.png)  
-**Mechanical typewriter: designed to SLOW DOWN typing!**
+**Mechanical typewriter: designed to SLOW DOWN typing!**  
+**That same slow & old keyboard layout is on your computer keyboard!!!** 🤔😬
 
 
 I have actually experienced this problem first hand (a long time ago) when I tried to type on a mechanical typewriter. While I wasn't typing fast, occasionally I would press two adjacent keys together by accident... 
@@ -124,7 +125,7 @@ And every time that happened, it was a very annoying and time consuming mess. Ge
 
 Long story short, the original (standard) keyboard layouts (for each language) were **specifically developed to slow down typists** in order to minimize those occasions where the typing levers would interlock and get stuck. Typist was actually a profession and companies used to employ large numbers of people whose sole job was to type all day, transcribe from audio recordings etc.
 
-And when computers and computer keyboards got invented (without any mechanical levers attached to the keys), the same old keyboard layouts were copied unchanged. 
+And when computers and computer keyboards got invented (without any mechanical levers attached to the keys), the same old and slow keyboard layouts were copied unchanged. 
 
 Once I learned this simple fact (shortly after I decided to learn touch typing), it became instantly clear to me that I can't possibly waste time on learning a keyboard layout that was designed for SLOW typing. 
 
