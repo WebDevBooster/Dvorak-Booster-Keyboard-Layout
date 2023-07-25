@@ -103,7 +103,7 @@ I initially did a research before learning
 (because I like to do things thoroughly) 
 and I quickly realized that:
 
-### The standard keyboard layout used on all computer keyboards today was... 
+### The standard keyboard layout used on all computer keyboards today is... 
 ### designed to SLOW DOWN TYPING!
 
 Hard to believe but it's true.
