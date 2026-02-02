@@ -21,7 +21,7 @@ The right option key will function as the CapsLock key. Because the regular Caps
 
 ### Dvorak-Booster layout on the ⚠️️login screen⚠️
 
-After thorough testing, you can also, under "Misc" click "*Copy the current configuration to the system default configuration*". 
+After thorough testing, you can also open the Karabiner app and under "Misc" click "*Copy the current configuration to the system default configuration*". 
 
 But do this ONLY after thorough testing BEFORE rebooting your Mac. Because this enables the Dvorak-Booster layout on the **login screen** and ⚠️️☢️ **ANY base layout goes through the Karabiner modifications!!!** ☢️️⚠️ In other words, once enabled, ⚠️☢️ it WILL NOT BE POSSIBLE ☢️⚠️ to switch to any other layout on the login screen! Make sure you understand what that means beforehand. (Technically you can switch to other layouts on the login screen, but every one of them will go through the Karabiner modifications. At least that's how things worked at the time of my setup.)
 
