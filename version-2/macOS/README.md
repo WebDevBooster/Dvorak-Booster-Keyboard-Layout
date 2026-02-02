@@ -17,7 +17,7 @@ Holding down the *right command* key enables the AltGr layer. And right command 
 
 ### Right option = CapsLock toggle
 
-And the right option key will function as the CapsLock key.
+The right option key will function as the CapsLock key. Because the regular CapsLock key is typing a semicolon on the base layer and a colon on the Shift layer. (Those 2 characters are frequently used in programming languages.)
 
 ### Dvorak-Booster layout on the ⚠️️login screen⚠️
 
