@@ -7,9 +7,9 @@
 
 This will enable the Dvorak-Booster layout (except dead keys for diacritics that let you type characters like ä, ö, ü, à, á, ô, ç, ñ etc; that's planned for version 3). 
 
-### Revert to QWERTY when pressing left Cmd
+### Revert to QWERTY on left Cmd
 
-When pressing the *left command* key (or left command + Shift), it will revert to the regular QWERTY layout. So, shortcuts like Cmd+C, Cmd+V (and all other shortcuts containing Cmd) should work the same way as before. 
+When pressing the *left command* key, it will revert to the regular QWERTY layout. So, shortcuts like Cmd+C, Cmd+V (or any other shortcuts containing Cmd) should work the same way as before. 
 
 ### Right Cmd = layer 3; right Cmd + Shift = layer 4
 
