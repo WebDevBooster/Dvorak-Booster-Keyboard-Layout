@@ -25,3 +25,8 @@ After thorough testing, you can also open the Karabiner app and under "Misc" cli
 
 But do this ONLY after thorough testing BEFORE rebooting your Mac. Because this enables the Dvorak-Booster layout on the **login screen** and ⚠️️☢️ **ANY base layout goes through the Karabiner modifications!!!** ☢️️⚠️ In other words, once enabled, ⚠️☢️ it WILL NOT BE POSSIBLE ☢️⚠️ to switch to any other layout on the login screen! Make sure you understand what that means beforehand. (Technically you can switch to other layouts, but every one of them will go through the Karabiner modifications. At least that's how things worked at the time of my setup. And you can't switch off Karabiner when you are on the login screen.)
 
+If you don't enable that option in Karabiner, then you won't have any of those limitations. But that also means you won't have the Dvorak-Booster layout enabled on the login screen. 
+
+So, using Karabiner is a suboptimal and **temporary** solution for now.  
+But hopefully, we'll have Dvorak-Booster as a proper, standalone keyboard layout in the future. Because that way we won't have to deal with those limitations. 
+
