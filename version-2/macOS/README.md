@@ -1,13 +1,25 @@
 # Installation on a Mac
 
 1) Install Karabiner-Elements.
-2) Copy the contents of `dvorak_booster_karabiner_ascii_cmd_qwerty_v2.1.0.json` Note: this version is designed to work with what Apple calls "British-PC" layout i.e. British English ISO keyboard layout. But you can make adjustments for other layouts. (Read the descriptions to understand how it works.)
+2) Copy the contents of `dvorak_booster_karabiner_ascii_cmd_qwerty_v2.1.0.json` Note: this version is designed to work with what Apple calls "British-PC" layout i.e. British English ISO keyboard layout. But you can make adjustments for other layouts. (Read the descriptions inside that JSON to understand how it works.)
 3) Paste the contents in Karabiner-Elements under **Complex Modifications**. 
 4) Done.
 
-This will enable the Dvorak-Booster layout (except dead keys).  
-But when pressing the *left command* key (or left command + Shift), it will revert to the regular QWERTY layout. So, all the usual shortcuts like Cmd+C, Cmd+V etc. should work the same way as before.  
-Holding down the *right command* key enables the AltGr layer. And right command + Shift enables the AltGr+Shift layer. And the right option key will function as the CapsLock key.
+This will enable the Dvorak-Booster layout (except dead keys for diacritics that let you type characters like ä, ö, ü, à, á, ô, ç, ñ etc; that's planned for version 3). 
 
-After thorough testing, you can also, under "Misc" click "*Copy the current configuration to the system default configuration*". But do this ONLY after thorough testing and restarting a few times.
+### Revert to QWERTY when pressing left Cmd
+
+When pressing the *left command* key (or left command + Shift), it will revert to the regular QWERTY layout. So, shortcuts like Cmd+C, Cmd+V (and all other shortcuts containing Cmd) should work the same way as before. 
+
+### Right Cmd = layer 3; right Cmd + Shift = layer 4
+
+Holding down the *right command* key enables the AltGr layer. And right command + Shift enables the AltGr+Shift layer. 
+
+### Right option = CapsLock toggle
+
+And the right option key will function as the CapsLock key.
+
+After thorough testing, you can also, under "Misc" click "*Copy the current configuration to the system default configuration*". 
+
+But do this ONLY after thorough testing and restarting a few times. Because this enables the Dvorak-Booster layout on the **login screen** and ⚠️⚠️⚠️☢️ **ANY base layout goes through the Karabiner modifications!!!** ☢️⚠️⚠️⚠️ Make sure you understand what that means.
 
