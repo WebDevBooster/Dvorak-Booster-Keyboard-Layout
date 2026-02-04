@@ -27,6 +27,8 @@ But do this ONLY after thorough testing BEFORE rebooting your Mac. Because this 
 
 If you don't enable that option in Karabiner, then you won't have any of those limitations. But that also means you won't have the Dvorak-Booster layout enabled on the login screen. 
 
+Personally, I haven't had any problems with enabling that option. And if something unexpected happens, you'd just have to look up in this file `dvorak_booster_karabiner_ascii_cmd_qwerty_v2.1.0.json` how Karabiner remaps the individual keys on your keyboard on the base and the Shift layer. I added descriptions for each remapping. So, it should be self-explanatory.
+
 So, using Karabiner is a suboptimal and **temporary** solution for now.  
 But hopefully, we'll have Dvorak-Booster as a proper, standalone keyboard layout in the future. Because that way we won't have to deal with those limitations. 
 
