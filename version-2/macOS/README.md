@@ -1,7 +1,7 @@
 # Installation on a Mac
 
 1) Install Karabiner-Elements.
-2) Copy the contents of `dvorak_booster_karabiner_ascii_cmd_qwerty_v2.1.0.json` Note: this version is designed to work with what Apple calls "British-PC" layout i.e. British English ISO keyboard layout. But you can make adjustments for other layouts. (Read the descriptions inside that JSON to understand how it works.)
+2) Copy the contents of `dvorak_booster_karabiner_ascii_cmd_qwerty_v2.1.1.json` Note: this version is designed to work with what Apple calls "British-PC" layout i.e. British English ISO keyboard layout. But you can make adjustments for other layouts. (Read the descriptions inside that JSON to understand how it works.)
 3) Paste the contents in Karabiner-Elements under **Complex Modifications**. 
 4) Done.
 
@@ -27,7 +27,7 @@ But do this ONLY after thorough testing BEFORE rebooting your Mac. Because this 
 
 If you don't enable that option in Karabiner, then you won't have any of those limitations. But that also means you won't have the Dvorak-Booster layout enabled on the login screen. 
 
-Personally, I haven't had any problems with enabling that option. And if something unexpected happens, you'd just have to look up in this file `dvorak_booster_karabiner_ascii_cmd_qwerty_v2.1.0.json` how Karabiner remaps the individual keys on your keyboard on the base and the Shift layer. I added descriptions for each remapping. So, it should be self-explanatory.
+Personally, I haven't had any problems with enabling that option. And if something unexpected happens, you'd just have to look up in this file `dvorak_booster_karabiner_ascii_cmd_qwerty_v2.1.1.json` how Karabiner remaps the individual keys on your keyboard on the base and the Shift layer. I added descriptions for each remapping. So, it should be self-explanatory.
 
 So, using Karabiner is a suboptimal and **temporary** solution for now.  
 But hopefully, we'll have Dvorak-Booster as a proper, standalone keyboard layout in the future. Because that way we won't have to deal with those limitations. 
